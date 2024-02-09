@@ -1,0 +1,2967 @@
+{
+	"data": [
+		{
+			"PID": 20846,
+			"bid": 231747,
+			"pac": 99,
+			"sho": 96,
+			"pas": 88,
+			"dri": 97,
+			"def": 47,
+			"phy": 88,
+			"name": "Mbapp\u00e9",
+			"height": "182cm | 6'0\"",
+			"ppos": "ST",
+			"skills": 5,
+			"wf": 4,
+			"dw": "Low",
+			"aw": "High",
+			"ci": 73,
+			"li": 16,
+			"ni": 18,
+			"playerid": 231747,
+			"resourceid": 134449475,
+			"rat": 97,
+			"rare": 1,
+			"rt": 5,
+			"pricePS": 0,
+			"priceMinPS": 1408000,
+			"priceMaxPS": 15000000,
+			"pricePC": 0,
+			"priceMinPC": 1249000,
+			"priceMaxPC": 15000000,
+			"cn": "Paris SG",
+			"ln": "Ligue 1 Uber Eats",
+			"nn": "France",
+			"groups": "",
+			"foot": "Right",
+			"simg": 1,
+			"pimg": "https:\/\/cdn.futbin.com\/content\/fifa24\/img\/players\/p134449475.png?v=23",
+			"pos_all": "ST,CF,LW",
+			"playstyles": "u'Finesse Shot', u'Power Shot', u'Rapid', u'Flair', u'First Touch'",
+			"playstylesPlus": "u'Quick Step', u'Trivela'",
+			"stats": {
+				"pace": [
+					{
+						"shortcut": "PAC",
+						"gk_shortcut": "DIV",
+						"chem_change": 1,
+						"id": "pace",
+						"stat_num": "igs1",
+						"name": "Pace",
+						"gk_stat_name": "Diving",
+						"type": "main",
+						"value": 99,
+						"max": true,
+						"sqlCol": "Player_Pace"
+					},
+					{
+						"shortcut": "ACC",
+						"chem_change": 1,
+						"id": "acceleration",
+						"stat_num": "igs2",
+						"name": "Acceleration",
+						"type": "sub",
+						"value": 99,
+						"max": true
+					},
+					{
+						"shortcut": "S\/S",
+						"chem_change": 1,
+						"id": "sprintspeed",
+						"stat_num": "igs3",
+						"name": "Sprint Speed",
+						"type": "sub",
+						"value": 99,
+						"max": true
+					}
+				],
+				"shooting": [
+					{
+						"shortcut": "SHO",
+						"gk_shortcut": "HAN",
+						"chem_change": 1,
+						"id": "shooting",
+						"stat_num": "igs4",
+						"name": "Shooting",
+						"gk_stat_name": "Handling",
+						"type": "main",
+						"value": 96,
+						"sqlCol": "Player_Shooting",
+						"max": true
+					},
+					{
+						"shortcut": "POS",
+						"chem_change": 1,
+						"id": "positioning",
+						"stat_num": "igs5",
+						"name": "Positioning",
+						"type": "sub",
+						"value": 99,
+						"max": true
+					},
+					{
+						"shortcut": "FIN",
+						"chem_change": 1,
+						"id": "finishing",
+						"stat_num": "igs6",
+						"name": "Finishing",
+						"type": "sub",
+						"value": 99,
+						"max": true
+					},
+					{
+						"shortcut": "S\/PW",
+						"chem_change": 1,
+						"id": "shotpower",
+						"stat_num": "igs7",
+						"name": "Shot Power",
+						"type": "sub",
+						"value": 96,
+						"max": true
+					},
+					{
+						"shortcut": "L\/S",
+						"chem_change": 1,
+						"id": "longshotsaccuracy",
+						"stat_num": "igs8",
+						"name": "Long Shots",
+						"type": "sub",
+						"value": 89,
+						"max": true
+					},
+					{
+						"shortcut": "VOL",
+						"chem_change": 1,
+						"id": "volleys",
+						"stat_num": "igs9",
+						"name": "Volleys",
+						"type": "sub",
+						"value": 90,
+						"max": true
+					},
+					{
+						"shortcut": "PEN",
+						"chem_change": 1,
+						"id": "penalties",
+						"stat_num": "igs10",
+						"name": "Penalties",
+						"type": "sub",
+						"value": 90,
+						"max": true
+					}
+				],
+				"passing": [
+					{
+						"shortcut": "PAS",
+						"gk_shortcut": "KIC",
+						"chem_change": 1,
+						"id": "passing",
+						"stat_num": "igs11",
+						"name": "Passing",
+						"gk_stat_name": "Kicking",
+						"type": "main",
+						"value": 88,
+						"sqlCol": "Player_Passing",
+						"max": true
+					},
+					{
+						"shortcut": "VIS",
+						"chem_change": 1,
+						"id": "vision",
+						"stat_num": "igs12",
+						"name": "Vision",
+						"type": "sub",
+						"value": 91,
+						"max": true
+					},
+					{
+						"shortcut": "CRO",
+						"chem_change": 1,
+						"id": "crossing",
+						"stat_num": "igs13",
+						"name": "Crossing",
+						"type": "sub",
+						"value": 85,
+						"max": true
+					},
+					{
+						"shortcut": "F\/K\/A",
+						"chem_change": 1,
+						"id": "freekickaccuracy",
+						"stat_num": "igs14",
+						"name": "FK. Accuracy",
+						"type": "sub",
+						"value": 75,
+						"max": true
+					},
+					{
+						"shortcut": "S\/P",
+						"chem_change": 1,
+						"id": "shortpassing",
+						"stat_num": "igs15",
+						"name": "Short Passing",
+						"type": "sub",
+						"value": 95,
+						"max": true
+					},
+					{
+						"shortcut": "L\/P",
+						"chem_change": 1,
+						"id": "longpassing",
+						"stat_num": "igs16",
+						"name": "Long Passing",
+						"type": "sub",
+						"value": 78,
+						"max": true
+					},
+					{
+						"shortcut": "CUR",
+						"chem_change": 1,
+						"id": "curve",
+						"stat_num": "igs17",
+						"name": "Curve",
+						"type": "sub",
+						"value": 88,
+						"max": true
+					}
+				],
+				"dribbling": [
+					{
+						"shortcut": "DRI",
+						"gk_shortcut": "REF",
+						"chem_change": 1,
+						"id": "dribblingp",
+						"stat_num": "igs18",
+						"name": "Dribbling",
+						"gk_stat_name": "Reflexes",
+						"type": "main",
+						"value": 97,
+						"sqlCol": "Player_Dribbling",
+						"max": true
+					},
+					{
+						"shortcut": "AGI",
+						"chem_change": 1,
+						"id": "agility",
+						"stat_num": "igs19",
+						"name": "Agility",
+						"type": "sub",
+						"value": 98,
+						"max": true
+					},
+					{
+						"shortcut": "BAL",
+						"chem_change": 1,
+						"id": "balance",
+						"stat_num": "igs20",
+						"name": "Balance",
+						"type": "sub",
+						"value": 86,
+						"max": true
+					},
+					{
+						"shortcut": "REA",
+						"chem_change": 1,
+						"id": "reactions",
+						"stat_num": "igs21",
+						"name": "Reactions",
+						"type": "sub",
+						"value": 98,
+						"max": true
+					},
+					{
+						"shortcut": "B\/C",
+						"chem_change": 1,
+						"id": "ballcontrol",
+						"stat_num": "igs22",
+						"name": "Ball Control",
+						"type": "sub",
+						"value": 97,
+						"max": true
+					},
+					{
+						"shortcut": "DRI",
+						"chem_change": 1,
+						"id": "dribbling",
+						"stat_num": "igs23",
+						"name": "Dribbling",
+						"type": "sub",
+						"value": 98,
+						"max": true
+					},
+					{
+						"shortcut": "COM",
+						"chem_change": 0,
+						"id": "composure",
+						"stat_num": "igs35",
+						"name": "Composure",
+						"type": "sub",
+						"value": 93,
+						"max": true
+					}
+				],
+				"defending": [
+					{
+						"shortcut": "DEF",
+						"gk_shortcut": "SPE",
+						"chem_change": 1,
+						"id": "defending",
+						"stat_num": "igs24",
+						"name": "Defending",
+						"gk_stat_name": "Speed",
+						"type": "main",
+						"value": 47,
+						"sqlCol": "Player_Defending",
+						"max": true
+					},
+					{
+						"shortcut": "INT",
+						"chem_change": 1,
+						"id": "interceptions",
+						"stat_num": "igs25",
+						"name": "Interceptions",
+						"type": "sub",
+						"value": 50,
+						"max": true
+					},
+					{
+						"shortcut": "H\/A",
+						"chem_change": 1,
+						"id": "headingaccuracy",
+						"stat_num": "igs26",
+						"name": "Heading Accuracy",
+						"type": "sub",
+						"value": 95,
+						"max": true
+					},
+					{
+						"shortcut": "MAR",
+						"chem_change": 1,
+						"id": "marking",
+						"stat_num": "igs27",
+						"name": "Marking",
+						"type": "sub",
+						"value": 34,
+						"max": true
+					},
+					{
+						"shortcut": "ST\/T",
+						"chem_change": 1,
+						"id": "standingtackle",
+						"stat_num": "igs28",
+						"name": "Standing Tackle",
+						"type": "sub",
+						"value": 44,
+						"max": true
+					},
+					{
+						"shortcut": "SL\/T",
+						"chem_change": 1,
+						"id": "slidingtackle",
+						"stat_num": "igs29",
+						"name": "Sliding Tackle",
+						"type": "sub",
+						"value": 42,
+						"max": true
+					}
+				],
+				"physical": [
+					{
+						"shortcut": "PHY",
+						"gk_shortcut": "POS",
+						"chem_change": 1,
+						"id": "heading",
+						"stat_num": "igs30",
+						"name": "Physicality",
+						"gk_stat_name": "Positioning",
+						"type": "main",
+						"value": 88,
+						"sqlCol": "Player_Heading",
+						"max": true
+					},
+					{
+						"shortcut": "JUMP",
+						"chem_change": 1,
+						"id": "jumping",
+						"stat_num": "igs31",
+						"name": "Jumping",
+						"type": "sub",
+						"value": 99,
+						"max": true
+					},
+					{
+						"shortcut": "STA",
+						"chem_change": 1,
+						"id": "stamina",
+						"stat_num": "igs32",
+						"name": "Stamina",
+						"type": "sub",
+						"value": 99,
+						"max": true
+					},
+					{
+						"shortcut": "STR",
+						"chem_change": 1,
+						"id": "strength",
+						"stat_num": "igs33",
+						"name": "Strength",
+						"type": "sub",
+						"value": 87,
+						"max": true
+					},
+					{
+						"shortcut": "AGR",
+						"chem_change": 1,
+						"id": "aggression",
+						"stat_num": "igs34",
+						"name": "Aggression",
+						"type": "sub",
+						"value": 72,
+						"max": true
+					}
+				]
+			}
+		},
+		{
+			"PID": 20519,
+			"bid": 231747,
+			"pac": 98,
+			"sho": 92,
+			"pas": 84,
+			"dri": 94,
+			"def": 40,
+			"phy": 81,
+			"name": "Mbapp\u00e9",
+			"height": "182cm | 6'0\"",
+			"ppos": "LW",
+			"skills": 5,
+			"wf": 4,
+			"dw": "Low",
+			"aw": "High",
+			"ci": 73,
+			"li": 16,
+			"ni": 18,
+			"playerid": 231747,
+			"resourceid": 100895043,
+			"rat": 93,
+			"rare": 1,
+			"rt": 68,
+			"pricePS": 9000000,
+			"priceMinPS": 474000,
+			"priceMaxPS": 9000000,
+			"pricePC": 0,
+			"priceMinPC": 476000,
+			"priceMaxPC": 9000000,
+			"cn": "Paris SG",
+			"ln": "Ligue 1 Uber Eats",
+			"nn": "France",
+			"groups": "",
+			"foot": "Right",
+			"simg": 1,
+			"pimg": "https:\/\/cdn.futbin.com\/content\/fifa24\/img\/players\/p100895043.png?v=23",
+			"pos_all": "LW,CF,ST",
+			"playstyles": "u'Power Shot', u'Rapid', u'Flair', u'Trivela'",
+			"playstylesPlus": "u'Quick Step'",
+			"stats": {
+				"pace": [
+					{
+						"shortcut": "PAC",
+						"gk_shortcut": "DIV",
+						"chem_change": 1,
+						"id": "pace",
+						"stat_num": "igs1",
+						"name": "Pace",
+						"gk_stat_name": "Diving",
+						"type": "main",
+						"value": 98,
+						"max": true,
+						"sqlCol": "Player_Pace"
+					},
+					{
+						"shortcut": "ACC",
+						"chem_change": 1,
+						"id": "acceleration",
+						"stat_num": "igs2",
+						"name": "Acceleration",
+						"type": "sub",
+						"value": 98,
+						"max": true
+					},
+					{
+						"shortcut": "S\/S",
+						"chem_change": 1,
+						"id": "sprintspeed",
+						"stat_num": "igs3",
+						"name": "Sprint Speed",
+						"type": "sub",
+						"value": 98,
+						"max": true
+					}
+				],
+				"shooting": [
+					{
+						"shortcut": "SHO",
+						"gk_shortcut": "HAN",
+						"chem_change": 1,
+						"id": "shooting",
+						"stat_num": "igs4",
+						"name": "Shooting",
+						"gk_stat_name": "Handling",
+						"type": "main",
+						"value": 92,
+						"sqlCol": "Player_Shooting",
+						"max": true
+					},
+					{
+						"shortcut": "POS",
+						"chem_change": 1,
+						"id": "positioning",
+						"stat_num": "igs5",
+						"name": "Positioning",
+						"type": "sub",
+						"value": 95,
+						"max": true
+					},
+					{
+						"shortcut": "FIN",
+						"chem_change": 1,
+						"id": "finishing",
+						"stat_num": "igs6",
+						"name": "Finishing",
+						"type": "sub",
+						"value": 96,
+						"max": true
+					},
+					{
+						"shortcut": "S\/PW",
+						"chem_change": 1,
+						"id": "shotpower",
+						"stat_num": "igs7",
+						"name": "Shot Power",
+						"type": "sub",
+						"value": 92,
+						"max": true
+					},
+					{
+						"shortcut": "L\/S",
+						"chem_change": 1,
+						"id": "longshotsaccuracy",
+						"stat_num": "igs8",
+						"name": "Long Shots",
+						"type": "sub",
+						"value": 85,
+						"max": true
+					},
+					{
+						"shortcut": "VOL",
+						"chem_change": 1,
+						"id": "volleys",
+						"stat_num": "igs9",
+						"name": "Volleys",
+						"type": "sub",
+						"value": 86,
+						"max": true
+					},
+					{
+						"shortcut": "PEN",
+						"chem_change": 1,
+						"id": "penalties",
+						"stat_num": "igs10",
+						"name": "Penalties",
+						"type": "sub",
+						"value": 86,
+						"max": true
+					}
+				],
+				"passing": [
+					{
+						"shortcut": "PAS",
+						"gk_shortcut": "KIC",
+						"chem_change": 1,
+						"id": "passing",
+						"stat_num": "igs11",
+						"name": "Passing",
+						"gk_stat_name": "Kicking",
+						"type": "main",
+						"value": 84,
+						"sqlCol": "Player_Passing",
+						"max": true
+					},
+					{
+						"shortcut": "VIS",
+						"chem_change": 1,
+						"id": "vision",
+						"stat_num": "igs12",
+						"name": "Vision",
+						"type": "sub",
+						"value": 87,
+						"max": true
+					},
+					{
+						"shortcut": "CRO",
+						"chem_change": 1,
+						"id": "crossing",
+						"stat_num": "igs13",
+						"name": "Crossing",
+						"type": "sub",
+						"value": 82,
+						"max": true
+					},
+					{
+						"shortcut": "F\/K\/A",
+						"chem_change": 1,
+						"id": "freekickaccuracy",
+						"stat_num": "igs14",
+						"name": "FK. Accuracy",
+						"type": "sub",
+						"value": 72,
+						"max": true
+					},
+					{
+						"shortcut": "S\/P",
+						"chem_change": 1,
+						"id": "shortpassing",
+						"stat_num": "igs15",
+						"name": "Short Passing",
+						"type": "sub",
+						"value": 90,
+						"max": true
+					},
+					{
+						"shortcut": "L\/P",
+						"chem_change": 1,
+						"id": "longpassing",
+						"stat_num": "igs16",
+						"name": "Long Passing",
+						"type": "sub",
+						"value": 75,
+						"max": true
+					},
+					{
+						"shortcut": "CUR",
+						"chem_change": 1,
+						"id": "curve",
+						"stat_num": "igs17",
+						"name": "Curve",
+						"type": "sub",
+						"value": 84,
+						"max": true
+					}
+				],
+				"dribbling": [
+					{
+						"shortcut": "DRI",
+						"gk_shortcut": "REF",
+						"chem_change": 1,
+						"id": "dribblingp",
+						"stat_num": "igs18",
+						"name": "Dribbling",
+						"gk_stat_name": "Reflexes",
+						"type": "main",
+						"value": 94,
+						"sqlCol": "Player_Dribbling",
+						"max": true
+					},
+					{
+						"shortcut": "AGI",
+						"chem_change": 1,
+						"id": "agility",
+						"stat_num": "igs19",
+						"name": "Agility",
+						"type": "sub",
+						"value": 95,
+						"max": true
+					},
+					{
+						"shortcut": "BAL",
+						"chem_change": 1,
+						"id": "balance",
+						"stat_num": "igs20",
+						"name": "Balance",
+						"type": "sub",
+						"value": 84,
+						"max": true
+					},
+					{
+						"shortcut": "REA",
+						"chem_change": 1,
+						"id": "reactions",
+						"stat_num": "igs21",
+						"name": "Reactions",
+						"type": "sub",
+						"value": 95,
+						"max": true
+					},
+					{
+						"shortcut": "B\/C",
+						"chem_change": 1,
+						"id": "ballcontrol",
+						"stat_num": "igs22",
+						"name": "Ball Control",
+						"type": "sub",
+						"value": 94,
+						"max": true
+					},
+					{
+						"shortcut": "DRI",
+						"chem_change": 1,
+						"id": "dribbling",
+						"stat_num": "igs23",
+						"name": "Dribbling",
+						"type": "sub",
+						"value": 95,
+						"max": true
+					},
+					{
+						"shortcut": "COM",
+						"chem_change": 0,
+						"id": "composure",
+						"stat_num": "igs35",
+						"name": "Composure",
+						"type": "sub",
+						"value": 90,
+						"max": true
+					}
+				],
+				"defending": [
+					{
+						"shortcut": "DEF",
+						"gk_shortcut": "SPE",
+						"chem_change": 1,
+						"id": "defending",
+						"stat_num": "igs24",
+						"name": "Defending",
+						"gk_stat_name": "Speed",
+						"type": "main",
+						"value": 40,
+						"sqlCol": "Player_Defending",
+						"max": true
+					},
+					{
+						"shortcut": "INT",
+						"chem_change": 1,
+						"id": "interceptions",
+						"stat_num": "igs25",
+						"name": "Interceptions",
+						"type": "sub",
+						"value": 42,
+						"max": true
+					},
+					{
+						"shortcut": "H\/A",
+						"chem_change": 1,
+						"id": "headingaccuracy",
+						"stat_num": "igs26",
+						"name": "Heading Accuracy",
+						"type": "sub",
+						"value": 81,
+						"max": true
+					},
+					{
+						"shortcut": "MAR",
+						"chem_change": 1,
+						"id": "marking",
+						"stat_num": "igs27",
+						"name": "Marking",
+						"type": "sub",
+						"value": 29,
+						"max": true
+					},
+					{
+						"shortcut": "ST\/T",
+						"chem_change": 1,
+						"id": "standingtackle",
+						"stat_num": "igs28",
+						"name": "Standing Tackle",
+						"type": "sub",
+						"value": 38,
+						"max": true
+					},
+					{
+						"shortcut": "SL\/T",
+						"chem_change": 1,
+						"id": "slidingtackle",
+						"stat_num": "igs29",
+						"name": "Sliding Tackle",
+						"type": "sub",
+						"value": 36,
+						"max": true
+					}
+				],
+				"physical": [
+					{
+						"shortcut": "PHY",
+						"gk_shortcut": "POS",
+						"chem_change": 1,
+						"id": "heading",
+						"stat_num": "igs30",
+						"name": "Physicality",
+						"gk_stat_name": "Positioning",
+						"type": "main",
+						"value": 81,
+						"sqlCol": "Player_Heading",
+						"max": true
+					},
+					{
+						"shortcut": "JUMP",
+						"chem_change": 1,
+						"id": "jumping",
+						"stat_num": "igs31",
+						"name": "Jumping",
+						"type": "sub",
+						"value": 91,
+						"max": true
+					},
+					{
+						"shortcut": "STA",
+						"chem_change": 1,
+						"id": "stamina",
+						"stat_num": "igs32",
+						"name": "Stamina",
+						"type": "sub",
+						"value": 91,
+						"max": true
+					},
+					{
+						"shortcut": "STR",
+						"chem_change": 1,
+						"id": "strength",
+						"stat_num": "igs33",
+						"name": "Strength",
+						"type": "sub",
+						"value": 80,
+						"max": true
+					},
+					{
+						"shortcut": "AGR",
+						"chem_change": 1,
+						"id": "aggression",
+						"stat_num": "igs34",
+						"name": "Aggression",
+						"type": "sub",
+						"value": 66,
+						"max": true
+					}
+				]
+			}
+		},
+		{
+			"PID": 20600,
+			"bid": 231747,
+			"pac": 98,
+			"sho": 92,
+			"pas": 83,
+			"dri": 94,
+			"def": 39,
+			"phy": 80,
+			"name": "Mbapp\u00e9",
+			"height": "182cm | 6'0\"",
+			"ppos": "ST",
+			"skills": 5,
+			"wf": 4,
+			"dw": "Low",
+			"aw": "High",
+			"ci": 73,
+			"li": 16,
+			"ni": 18,
+			"playerid": 231747,
+			"resourceid": 117672259,
+			"rat": 93,
+			"rare": 1,
+			"rt": 79,
+			"pricePS": 4446950,
+			"priceMinPS": 0,
+			"priceMaxPS": 0,
+			"pricePC": 4112350,
+			"priceMinPC": 0,
+			"priceMaxPC": 0,
+			"cn": "Paris SG",
+			"ln": "Ligue 1 Uber Eats",
+			"nn": "France",
+			"groups": "",
+			"foot": "Right",
+			"simg": 1,
+			"pimg": "https:\/\/cdn.futbin.com\/content\/fifa24\/img\/players\/p117672259.png?v=23",
+			"pos_all": "ST,CF,LW",
+			"playstyles": "u'Flair', u'Quick Step', u'Trivela'",
+			"playstylesPlus": "u'Rapid'",
+			"stats": {
+				"pace": [
+					{
+						"shortcut": "PAC",
+						"gk_shortcut": "DIV",
+						"chem_change": 1,
+						"id": "pace",
+						"stat_num": "igs1",
+						"name": "Pace",
+						"gk_stat_name": "Diving",
+						"type": "main",
+						"value": 98,
+						"max": true,
+						"sqlCol": "Player_Pace"
+					},
+					{
+						"shortcut": "ACC",
+						"chem_change": 1,
+						"id": "acceleration",
+						"stat_num": "igs2",
+						"name": "Acceleration",
+						"type": "sub",
+						"value": 98,
+						"max": true
+					},
+					{
+						"shortcut": "S\/S",
+						"chem_change": 1,
+						"id": "sprintspeed",
+						"stat_num": "igs3",
+						"name": "Sprint Speed",
+						"type": "sub",
+						"value": 98,
+						"max": true
+					}
+				],
+				"shooting": [
+					{
+						"shortcut": "SHO",
+						"gk_shortcut": "HAN",
+						"chem_change": 1,
+						"id": "shooting",
+						"stat_num": "igs4",
+						"name": "Shooting",
+						"gk_stat_name": "Handling",
+						"type": "main",
+						"value": 92,
+						"sqlCol": "Player_Shooting",
+						"max": true
+					},
+					{
+						"shortcut": "POS",
+						"chem_change": 1,
+						"id": "positioning",
+						"stat_num": "igs5",
+						"name": "Positioning",
+						"type": "sub",
+						"value": 95,
+						"max": true
+					},
+					{
+						"shortcut": "FIN",
+						"chem_change": 1,
+						"id": "finishing",
+						"stat_num": "igs6",
+						"name": "Finishing",
+						"type": "sub",
+						"value": 96,
+						"max": true
+					},
+					{
+						"shortcut": "S\/PW",
+						"chem_change": 1,
+						"id": "shotpower",
+						"stat_num": "igs7",
+						"name": "Shot Power",
+						"type": "sub",
+						"value": 92,
+						"max": true
+					},
+					{
+						"shortcut": "L\/S",
+						"chem_change": 1,
+						"id": "longshotsaccuracy",
+						"stat_num": "igs8",
+						"name": "Long Shots",
+						"type": "sub",
+						"value": 85,
+						"max": true
+					},
+					{
+						"shortcut": "VOL",
+						"chem_change": 1,
+						"id": "volleys",
+						"stat_num": "igs9",
+						"name": "Volleys",
+						"type": "sub",
+						"value": 86,
+						"max": true
+					},
+					{
+						"shortcut": "PEN",
+						"chem_change": 1,
+						"id": "penalties",
+						"stat_num": "igs10",
+						"name": "Penalties",
+						"type": "sub",
+						"value": 86,
+						"max": true
+					}
+				],
+				"passing": [
+					{
+						"shortcut": "PAS",
+						"gk_shortcut": "KIC",
+						"chem_change": 1,
+						"id": "passing",
+						"stat_num": "igs11",
+						"name": "Passing",
+						"gk_stat_name": "Kicking",
+						"type": "main",
+						"value": 83,
+						"sqlCol": "Player_Passing",
+						"max": true
+					},
+					{
+						"shortcut": "VIS",
+						"chem_change": 1,
+						"id": "vision",
+						"stat_num": "igs12",
+						"name": "Vision",
+						"type": "sub",
+						"value": 86,
+						"max": true
+					},
+					{
+						"shortcut": "CRO",
+						"chem_change": 1,
+						"id": "crossing",
+						"stat_num": "igs13",
+						"name": "Crossing",
+						"type": "sub",
+						"value": 81,
+						"max": true
+					},
+					{
+						"shortcut": "F\/K\/A",
+						"chem_change": 1,
+						"id": "freekickaccuracy",
+						"stat_num": "igs14",
+						"name": "FK. Accuracy",
+						"type": "sub",
+						"value": 72,
+						"max": true
+					},
+					{
+						"shortcut": "S\/P",
+						"chem_change": 1,
+						"id": "shortpassing",
+						"stat_num": "igs15",
+						"name": "Short Passing",
+						"type": "sub",
+						"value": 89,
+						"max": true
+					},
+					{
+						"shortcut": "L\/P",
+						"chem_change": 1,
+						"id": "longpassing",
+						"stat_num": "igs16",
+						"name": "Long Passing",
+						"type": "sub",
+						"value": 74,
+						"max": true
+					},
+					{
+						"shortcut": "CUR",
+						"chem_change": 1,
+						"id": "curve",
+						"stat_num": "igs17",
+						"name": "Curve",
+						"type": "sub",
+						"value": 83,
+						"max": true
+					}
+				],
+				"dribbling": [
+					{
+						"shortcut": "DRI",
+						"gk_shortcut": "REF",
+						"chem_change": 1,
+						"id": "dribblingp",
+						"stat_num": "igs18",
+						"name": "Dribbling",
+						"gk_stat_name": "Reflexes",
+						"type": "main",
+						"value": 94,
+						"sqlCol": "Player_Dribbling",
+						"max": true
+					},
+					{
+						"shortcut": "AGI",
+						"chem_change": 1,
+						"id": "agility",
+						"stat_num": "igs19",
+						"name": "Agility",
+						"type": "sub",
+						"value": 95,
+						"max": true
+					},
+					{
+						"shortcut": "BAL",
+						"chem_change": 1,
+						"id": "balance",
+						"stat_num": "igs20",
+						"name": "Balance",
+						"type": "sub",
+						"value": 84,
+						"max": true
+					},
+					{
+						"shortcut": "REA",
+						"chem_change": 1,
+						"id": "reactions",
+						"stat_num": "igs21",
+						"name": "Reactions",
+						"type": "sub",
+						"value": 95,
+						"max": true
+					},
+					{
+						"shortcut": "B\/C",
+						"chem_change": 1,
+						"id": "ballcontrol",
+						"stat_num": "igs22",
+						"name": "Ball Control",
+						"type": "sub",
+						"value": 94,
+						"max": true
+					},
+					{
+						"shortcut": "DRI",
+						"chem_change": 1,
+						"id": "dribbling",
+						"stat_num": "igs23",
+						"name": "Dribbling",
+						"type": "sub",
+						"value": 95,
+						"max": true
+					},
+					{
+						"shortcut": "COM",
+						"chem_change": 0,
+						"id": "composure",
+						"stat_num": "igs35",
+						"name": "Composure",
+						"type": "sub",
+						"value": 90,
+						"max": true
+					}
+				],
+				"defending": [
+					{
+						"shortcut": "DEF",
+						"gk_shortcut": "SPE",
+						"chem_change": 1,
+						"id": "defending",
+						"stat_num": "igs24",
+						"name": "Defending",
+						"gk_stat_name": "Speed",
+						"type": "main",
+						"value": 39,
+						"sqlCol": "Player_Defending",
+						"max": true
+					},
+					{
+						"shortcut": "INT",
+						"chem_change": 1,
+						"id": "interceptions",
+						"stat_num": "igs25",
+						"name": "Interceptions",
+						"type": "sub",
+						"value": 41,
+						"max": true
+					},
+					{
+						"shortcut": "H\/A",
+						"chem_change": 1,
+						"id": "headingaccuracy",
+						"stat_num": "igs26",
+						"name": "Heading Accuracy",
+						"type": "sub",
+						"value": 79,
+						"max": true
+					},
+					{
+						"shortcut": "MAR",
+						"chem_change": 1,
+						"id": "marking",
+						"stat_num": "igs27",
+						"name": "Marking",
+						"type": "sub",
+						"value": 28,
+						"max": true
+					},
+					{
+						"shortcut": "ST\/T",
+						"chem_change": 1,
+						"id": "standingtackle",
+						"stat_num": "igs28",
+						"name": "Standing Tackle",
+						"type": "sub",
+						"value": 37,
+						"max": true
+					},
+					{
+						"shortcut": "SL\/T",
+						"chem_change": 1,
+						"id": "slidingtackle",
+						"stat_num": "igs29",
+						"name": "Sliding Tackle",
+						"type": "sub",
+						"value": 35,
+						"max": true
+					}
+				],
+				"physical": [
+					{
+						"shortcut": "PHY",
+						"gk_shortcut": "POS",
+						"chem_change": 1,
+						"id": "heading",
+						"stat_num": "igs30",
+						"name": "Physicality",
+						"gk_stat_name": "Positioning",
+						"type": "main",
+						"value": 80,
+						"sqlCol": "Player_Heading",
+						"max": true
+					},
+					{
+						"shortcut": "JUMP",
+						"chem_change": 1,
+						"id": "jumping",
+						"stat_num": "igs31",
+						"name": "Jumping",
+						"type": "sub",
+						"value": 90,
+						"max": true
+					},
+					{
+						"shortcut": "STA",
+						"chem_change": 1,
+						"id": "stamina",
+						"stat_num": "igs32",
+						"name": "Stamina",
+						"type": "sub",
+						"value": 90,
+						"max": true
+					},
+					{
+						"shortcut": "STR",
+						"chem_change": 1,
+						"id": "strength",
+						"stat_num": "igs33",
+						"name": "Strength",
+						"type": "sub",
+						"value": 79,
+						"max": true
+					},
+					{
+						"shortcut": "AGR",
+						"chem_change": 1,
+						"id": "aggression",
+						"stat_num": "igs34",
+						"name": "Aggression",
+						"type": "sub",
+						"value": 66,
+						"max": true
+					}
+				]
+			}
+		},
+		{
+			"PID": 19776,
+			"bid": 231747,
+			"pac": 98,
+			"sho": 91,
+			"pas": 81,
+			"dri": 93,
+			"def": 37,
+			"phy": 79,
+			"name": "Mbapp\u00e9",
+			"height": "182cm | 6'0\"",
+			"ppos": "ST",
+			"skills": 5,
+			"wf": 4,
+			"dw": "Low",
+			"aw": "High",
+			"ci": 73,
+			"li": 16,
+			"ni": 18,
+			"playerid": 231747,
+			"resourceid": 50563395,
+			"rat": 92,
+			"rare": 1,
+			"rt": 22,
+			"pricePS": 3796000,
+			"priceMinPS": 321000,
+			"priceMaxPS": 6100000,
+			"pricePC": 5450000,
+			"priceMinPC": 375000,
+			"priceMaxPC": 7100000,
+			"cn": "Paris SG",
+			"ln": "Ligue 1 Uber Eats",
+			"nn": "France",
+			"groups": "",
+			"foot": "Right",
+			"simg": 1,
+			"pimg": "https:\/\/cdn.futbin.com\/content\/fifa24\/img\/players\/p50563395.png?v=23",
+			"pos_all": "ST,CF,LW",
+			"playstyles": "u'Rapid', u'Flair', u'Quick Step', u'Trivela'",
+			"playstylesPlus": "u'Power Shot'",
+			"stats": {
+				"pace": [
+					{
+						"shortcut": "PAC",
+						"gk_shortcut": "DIV",
+						"chem_change": 1,
+						"id": "pace",
+						"stat_num": "igs1",
+						"name": "Pace",
+						"gk_stat_name": "Diving",
+						"type": "main",
+						"value": 98,
+						"max": true,
+						"sqlCol": "Player_Pace"
+					},
+					{
+						"shortcut": "ACC",
+						"chem_change": 1,
+						"id": "acceleration",
+						"stat_num": "igs2",
+						"name": "Acceleration",
+						"type": "sub",
+						"value": 98,
+						"max": true
+					},
+					{
+						"shortcut": "S\/S",
+						"chem_change": 1,
+						"id": "sprintspeed",
+						"stat_num": "igs3",
+						"name": "Sprint Speed",
+						"type": "sub",
+						"value": 98,
+						"max": true
+					}
+				],
+				"shooting": [
+					{
+						"shortcut": "SHO",
+						"gk_shortcut": "HAN",
+						"chem_change": 1,
+						"id": "shooting",
+						"stat_num": "igs4",
+						"name": "Shooting",
+						"gk_stat_name": "Handling",
+						"type": "main",
+						"value": 91,
+						"sqlCol": "Player_Shooting",
+						"max": true
+					},
+					{
+						"shortcut": "POS",
+						"chem_change": 1,
+						"id": "positioning",
+						"stat_num": "igs5",
+						"name": "Positioning",
+						"type": "sub",
+						"value": 94,
+						"max": true
+					},
+					{
+						"shortcut": "FIN",
+						"chem_change": 1,
+						"id": "finishing",
+						"stat_num": "igs6",
+						"name": "Finishing",
+						"type": "sub",
+						"value": 95,
+						"max": true
+					},
+					{
+						"shortcut": "S\/PW",
+						"chem_change": 1,
+						"id": "shotpower",
+						"stat_num": "igs7",
+						"name": "Shot Power",
+						"type": "sub",
+						"value": 91,
+						"max": true
+					},
+					{
+						"shortcut": "L\/S",
+						"chem_change": 1,
+						"id": "longshotsaccuracy",
+						"stat_num": "igs8",
+						"name": "Long Shots",
+						"type": "sub",
+						"value": 84,
+						"max": true
+					},
+					{
+						"shortcut": "VOL",
+						"chem_change": 1,
+						"id": "volleys",
+						"stat_num": "igs9",
+						"name": "Volleys",
+						"type": "sub",
+						"value": 85,
+						"max": true
+					},
+					{
+						"shortcut": "PEN",
+						"chem_change": 1,
+						"id": "penalties",
+						"stat_num": "igs10",
+						"name": "Penalties",
+						"type": "sub",
+						"value": 85,
+						"max": true
+					}
+				],
+				"passing": [
+					{
+						"shortcut": "PAS",
+						"gk_shortcut": "KIC",
+						"chem_change": 1,
+						"id": "passing",
+						"stat_num": "igs11",
+						"name": "Passing",
+						"gk_stat_name": "Kicking",
+						"type": "main",
+						"value": 81,
+						"sqlCol": "Player_Passing",
+						"max": true
+					},
+					{
+						"shortcut": "VIS",
+						"chem_change": 1,
+						"id": "vision",
+						"stat_num": "igs12",
+						"name": "Vision",
+						"type": "sub",
+						"value": 84,
+						"max": true
+					},
+					{
+						"shortcut": "CRO",
+						"chem_change": 1,
+						"id": "crossing",
+						"stat_num": "igs13",
+						"name": "Crossing",
+						"type": "sub",
+						"value": 79,
+						"max": true
+					},
+					{
+						"shortcut": "F\/K\/A",
+						"chem_change": 1,
+						"id": "freekickaccuracy",
+						"stat_num": "igs14",
+						"name": "FK. Accuracy",
+						"type": "sub",
+						"value": 70,
+						"max": true
+					},
+					{
+						"shortcut": "S\/P",
+						"chem_change": 1,
+						"id": "shortpassing",
+						"stat_num": "igs15",
+						"name": "Short Passing",
+						"type": "sub",
+						"value": 87,
+						"max": true
+					},
+					{
+						"shortcut": "L\/P",
+						"chem_change": 1,
+						"id": "longpassing",
+						"stat_num": "igs16",
+						"name": "Long Passing",
+						"type": "sub",
+						"value": 72,
+						"max": true
+					},
+					{
+						"shortcut": "CUR",
+						"chem_change": 1,
+						"id": "curve",
+						"stat_num": "igs17",
+						"name": "Curve",
+						"type": "sub",
+						"value": 81,
+						"max": true
+					}
+				],
+				"dribbling": [
+					{
+						"shortcut": "DRI",
+						"gk_shortcut": "REF",
+						"chem_change": 1,
+						"id": "dribblingp",
+						"stat_num": "igs18",
+						"name": "Dribbling",
+						"gk_stat_name": "Reflexes",
+						"type": "main",
+						"value": 93,
+						"sqlCol": "Player_Dribbling",
+						"max": true
+					},
+					{
+						"shortcut": "AGI",
+						"chem_change": 1,
+						"id": "agility",
+						"stat_num": "igs19",
+						"name": "Agility",
+						"type": "sub",
+						"value": 94,
+						"max": true
+					},
+					{
+						"shortcut": "BAL",
+						"chem_change": 1,
+						"id": "balance",
+						"stat_num": "igs20",
+						"name": "Balance",
+						"type": "sub",
+						"value": 83,
+						"max": true
+					},
+					{
+						"shortcut": "REA",
+						"chem_change": 1,
+						"id": "reactions",
+						"stat_num": "igs21",
+						"name": "Reactions",
+						"type": "sub",
+						"value": 94,
+						"max": true
+					},
+					{
+						"shortcut": "B\/C",
+						"chem_change": 1,
+						"id": "ballcontrol",
+						"stat_num": "igs22",
+						"name": "Ball Control",
+						"type": "sub",
+						"value": 93,
+						"max": true
+					},
+					{
+						"shortcut": "DRI",
+						"chem_change": 1,
+						"id": "dribbling",
+						"stat_num": "igs23",
+						"name": "Dribbling",
+						"type": "sub",
+						"value": 94,
+						"max": true
+					},
+					{
+						"shortcut": "COM",
+						"chem_change": 0,
+						"id": "composure",
+						"stat_num": "igs35",
+						"name": "Composure",
+						"type": "sub",
+						"value": 89,
+						"max": true
+					}
+				],
+				"defending": [
+					{
+						"shortcut": "DEF",
+						"gk_shortcut": "SPE",
+						"chem_change": 1,
+						"id": "defending",
+						"stat_num": "igs24",
+						"name": "Defending",
+						"gk_stat_name": "Speed",
+						"type": "main",
+						"value": 37,
+						"sqlCol": "Player_Defending",
+						"max": true
+					},
+					{
+						"shortcut": "INT",
+						"chem_change": 1,
+						"id": "interceptions",
+						"stat_num": "igs25",
+						"name": "Interceptions",
+						"type": "sub",
+						"value": 39,
+						"max": true
+					},
+					{
+						"shortcut": "H\/A",
+						"chem_change": 1,
+						"id": "headingaccuracy",
+						"stat_num": "igs26",
+						"name": "Heading Accuracy",
+						"type": "sub",
+						"value": 75,
+						"max": true
+					},
+					{
+						"shortcut": "MAR",
+						"chem_change": 1,
+						"id": "marking",
+						"stat_num": "igs27",
+						"name": "Marking",
+						"type": "sub",
+						"value": 27,
+						"max": true
+					},
+					{
+						"shortcut": "ST\/T",
+						"chem_change": 1,
+						"id": "standingtackle",
+						"stat_num": "igs28",
+						"name": "Standing Tackle",
+						"type": "sub",
+						"value": 35,
+						"max": true
+					},
+					{
+						"shortcut": "SL\/T",
+						"chem_change": 1,
+						"id": "slidingtackle",
+						"stat_num": "igs29",
+						"name": "Sliding Tackle",
+						"type": "sub",
+						"value": 33,
+						"max": true
+					}
+				],
+				"physical": [
+					{
+						"shortcut": "PHY",
+						"gk_shortcut": "POS",
+						"chem_change": 1,
+						"id": "heading",
+						"stat_num": "igs30",
+						"name": "Physicality",
+						"gk_stat_name": "Positioning",
+						"type": "main",
+						"value": 79,
+						"sqlCol": "Player_Heading",
+						"max": true
+					},
+					{
+						"shortcut": "JUMP",
+						"chem_change": 1,
+						"id": "jumping",
+						"stat_num": "igs31",
+						"name": "Jumping",
+						"type": "sub",
+						"value": 89,
+						"max": true
+					},
+					{
+						"shortcut": "STA",
+						"chem_change": 1,
+						"id": "stamina",
+						"stat_num": "igs32",
+						"name": "Stamina",
+						"type": "sub",
+						"value": 89,
+						"max": true
+					},
+					{
+						"shortcut": "STR",
+						"chem_change": 1,
+						"id": "strength",
+						"stat_num": "igs33",
+						"name": "Strength",
+						"type": "sub",
+						"value": 78,
+						"max": true
+					},
+					{
+						"shortcut": "AGR",
+						"chem_change": 1,
+						"id": "aggression",
+						"stat_num": "igs34",
+						"name": "Aggression",
+						"type": "sub",
+						"value": 65,
+						"max": true
+					}
+				]
+			}
+		},
+		{
+			"PID": 20121,
+			"bid": 231747,
+			"pac": 98,
+			"sho": 91,
+			"pas": 81,
+			"dri": 93,
+			"def": 38,
+			"phy": 80,
+			"name": "Mbapp\u00e9",
+			"height": "182cm | 6'0\"",
+			"ppos": "LW",
+			"skills": 5,
+			"wf": 4,
+			"dw": "Low",
+			"aw": "High",
+			"ci": 73,
+			"li": 16,
+			"ni": 18,
+			"playerid": 231747,
+			"resourceid": 67340611,
+			"rat": 92,
+			"rare": 1,
+			"rt": 3,
+			"pricePS": 4030000,
+			"priceMinPS": 289000,
+			"priceMaxPS": 5500000,
+			"pricePC": 5250000,
+			"priceMinPC": 323000,
+			"priceMaxPC": 6100000,
+			"cn": "Paris SG",
+			"ln": "Ligue 1 Uber Eats",
+			"nn": "France",
+			"groups": "4",
+			"foot": "Right",
+			"simg": 1,
+			"pimg": "https:\/\/cdn.futbin.com\/content\/fifa24\/img\/players\/p67340611.png?v=23",
+			"pos_all": "LW,LM,CF,ST",
+			"playstyles": "u'Rapid', u'Flair', u'Trivela'",
+			"playstylesPlus": "u'Quick Step'",
+			"stats": {
+				"pace": [
+					{
+						"shortcut": "PAC",
+						"gk_shortcut": "DIV",
+						"chem_change": 1,
+						"id": "pace",
+						"stat_num": "igs1",
+						"name": "Pace",
+						"gk_stat_name": "Diving",
+						"type": "main",
+						"value": 98,
+						"max": true,
+						"sqlCol": "Player_Pace"
+					},
+					{
+						"shortcut": "ACC",
+						"chem_change": 1,
+						"id": "acceleration",
+						"stat_num": "igs2",
+						"name": "Acceleration",
+						"type": "sub",
+						"value": 98,
+						"max": true
+					},
+					{
+						"shortcut": "S\/S",
+						"chem_change": 1,
+						"id": "sprintspeed",
+						"stat_num": "igs3",
+						"name": "Sprint Speed",
+						"type": "sub",
+						"value": 98,
+						"max": true
+					}
+				],
+				"shooting": [
+					{
+						"shortcut": "SHO",
+						"gk_shortcut": "HAN",
+						"chem_change": 1,
+						"id": "shooting",
+						"stat_num": "igs4",
+						"name": "Shooting",
+						"gk_stat_name": "Handling",
+						"type": "main",
+						"value": 91,
+						"sqlCol": "Player_Shooting",
+						"max": true
+					},
+					{
+						"shortcut": "POS",
+						"chem_change": 1,
+						"id": "positioning",
+						"stat_num": "igs5",
+						"name": "Positioning",
+						"type": "sub",
+						"value": 94,
+						"max": true
+					},
+					{
+						"shortcut": "FIN",
+						"chem_change": 1,
+						"id": "finishing",
+						"stat_num": "igs6",
+						"name": "Finishing",
+						"type": "sub",
+						"value": 95,
+						"max": true
+					},
+					{
+						"shortcut": "S\/PW",
+						"chem_change": 1,
+						"id": "shotpower",
+						"stat_num": "igs7",
+						"name": "Shot Power",
+						"type": "sub",
+						"value": 91,
+						"max": true
+					},
+					{
+						"shortcut": "L\/S",
+						"chem_change": 1,
+						"id": "longshotsaccuracy",
+						"stat_num": "igs8",
+						"name": "Long Shots",
+						"type": "sub",
+						"value": 84,
+						"max": true
+					},
+					{
+						"shortcut": "VOL",
+						"chem_change": 1,
+						"id": "volleys",
+						"stat_num": "igs9",
+						"name": "Volleys",
+						"type": "sub",
+						"value": 85,
+						"max": true
+					},
+					{
+						"shortcut": "PEN",
+						"chem_change": 1,
+						"id": "penalties",
+						"stat_num": "igs10",
+						"name": "Penalties",
+						"type": "sub",
+						"value": 85,
+						"max": true
+					}
+				],
+				"passing": [
+					{
+						"shortcut": "PAS",
+						"gk_shortcut": "KIC",
+						"chem_change": 1,
+						"id": "passing",
+						"stat_num": "igs11",
+						"name": "Passing",
+						"gk_stat_name": "Kicking",
+						"type": "main",
+						"value": 81,
+						"sqlCol": "Player_Passing",
+						"max": true
+					},
+					{
+						"shortcut": "VIS",
+						"chem_change": 1,
+						"id": "vision",
+						"stat_num": "igs12",
+						"name": "Vision",
+						"type": "sub",
+						"value": 84,
+						"max": true
+					},
+					{
+						"shortcut": "CRO",
+						"chem_change": 1,
+						"id": "crossing",
+						"stat_num": "igs13",
+						"name": "Crossing",
+						"type": "sub",
+						"value": 79,
+						"max": true
+					},
+					{
+						"shortcut": "F\/K\/A",
+						"chem_change": 1,
+						"id": "freekickaccuracy",
+						"stat_num": "igs14",
+						"name": "FK. Accuracy",
+						"type": "sub",
+						"value": 70,
+						"max": true
+					},
+					{
+						"shortcut": "S\/P",
+						"chem_change": 1,
+						"id": "shortpassing",
+						"stat_num": "igs15",
+						"name": "Short Passing",
+						"type": "sub",
+						"value": 87,
+						"max": true
+					},
+					{
+						"shortcut": "L\/P",
+						"chem_change": 1,
+						"id": "longpassing",
+						"stat_num": "igs16",
+						"name": "Long Passing",
+						"type": "sub",
+						"value": 72,
+						"max": true
+					},
+					{
+						"shortcut": "CUR",
+						"chem_change": 1,
+						"id": "curve",
+						"stat_num": "igs17",
+						"name": "Curve",
+						"type": "sub",
+						"value": 81,
+						"max": true
+					}
+				],
+				"dribbling": [
+					{
+						"shortcut": "DRI",
+						"gk_shortcut": "REF",
+						"chem_change": 1,
+						"id": "dribblingp",
+						"stat_num": "igs18",
+						"name": "Dribbling",
+						"gk_stat_name": "Reflexes",
+						"type": "main",
+						"value": 93,
+						"sqlCol": "Player_Dribbling",
+						"max": true
+					},
+					{
+						"shortcut": "AGI",
+						"chem_change": 1,
+						"id": "agility",
+						"stat_num": "igs19",
+						"name": "Agility",
+						"type": "sub",
+						"value": 94,
+						"max": true
+					},
+					{
+						"shortcut": "BAL",
+						"chem_change": 1,
+						"id": "balance",
+						"stat_num": "igs20",
+						"name": "Balance",
+						"type": "sub",
+						"value": 83,
+						"max": true
+					},
+					{
+						"shortcut": "REA",
+						"chem_change": 1,
+						"id": "reactions",
+						"stat_num": "igs21",
+						"name": "Reactions",
+						"type": "sub",
+						"value": 94,
+						"max": true
+					},
+					{
+						"shortcut": "B\/C",
+						"chem_change": 1,
+						"id": "ballcontrol",
+						"stat_num": "igs22",
+						"name": "Ball Control",
+						"type": "sub",
+						"value": 93,
+						"max": true
+					},
+					{
+						"shortcut": "DRI",
+						"chem_change": 1,
+						"id": "dribbling",
+						"stat_num": "igs23",
+						"name": "Dribbling",
+						"type": "sub",
+						"value": 94,
+						"max": true
+					},
+					{
+						"shortcut": "COM",
+						"chem_change": 0,
+						"id": "composure",
+						"stat_num": "igs35",
+						"name": "Composure",
+						"type": "sub",
+						"value": 89,
+						"max": true
+					}
+				],
+				"defending": [
+					{
+						"shortcut": "DEF",
+						"gk_shortcut": "SPE",
+						"chem_change": 1,
+						"id": "defending",
+						"stat_num": "igs24",
+						"name": "Defending",
+						"gk_stat_name": "Speed",
+						"type": "main",
+						"value": 38,
+						"sqlCol": "Player_Defending",
+						"max": true
+					},
+					{
+						"shortcut": "INT",
+						"chem_change": 1,
+						"id": "interceptions",
+						"stat_num": "igs25",
+						"name": "Interceptions",
+						"type": "sub",
+						"value": 40,
+						"max": true
+					},
+					{
+						"shortcut": "H\/A",
+						"chem_change": 1,
+						"id": "headingaccuracy",
+						"stat_num": "igs26",
+						"name": "Heading Accuracy",
+						"type": "sub",
+						"value": 77,
+						"max": true
+					},
+					{
+						"shortcut": "MAR",
+						"chem_change": 1,
+						"id": "marking",
+						"stat_num": "igs27",
+						"name": "Marking",
+						"type": "sub",
+						"value": 27,
+						"max": true
+					},
+					{
+						"shortcut": "ST\/T",
+						"chem_change": 1,
+						"id": "standingtackle",
+						"stat_num": "igs28",
+						"name": "Standing Tackle",
+						"type": "sub",
+						"value": 36,
+						"max": true
+					},
+					{
+						"shortcut": "SL\/T",
+						"chem_change": 1,
+						"id": "slidingtackle",
+						"stat_num": "igs29",
+						"name": "Sliding Tackle",
+						"type": "sub",
+						"value": 34,
+						"max": true
+					}
+				],
+				"physical": [
+					{
+						"shortcut": "PHY",
+						"gk_shortcut": "POS",
+						"chem_change": 1,
+						"id": "heading",
+						"stat_num": "igs30",
+						"name": "Physicality",
+						"gk_stat_name": "Positioning",
+						"type": "main",
+						"value": 80,
+						"sqlCol": "Player_Heading",
+						"max": true
+					},
+					{
+						"shortcut": "JUMP",
+						"chem_change": 1,
+						"id": "jumping",
+						"stat_num": "igs31",
+						"name": "Jumping",
+						"type": "sub",
+						"value": 90,
+						"max": true
+					},
+					{
+						"shortcut": "STA",
+						"chem_change": 1,
+						"id": "stamina",
+						"stat_num": "igs32",
+						"name": "Stamina",
+						"type": "sub",
+						"value": 90,
+						"max": true
+					},
+					{
+						"shortcut": "STR",
+						"chem_change": 1,
+						"id": "strength",
+						"stat_num": "igs33",
+						"name": "Strength",
+						"type": "sub",
+						"value": 79,
+						"max": true
+					},
+					{
+						"shortcut": "AGR",
+						"chem_change": 1,
+						"id": "aggression",
+						"stat_num": "igs34",
+						"name": "Aggression",
+						"type": "sub",
+						"value": 66,
+						"max": true
+					}
+				]
+			}
+		},
+		{
+			"PID": 20181,
+			"bid": 231747,
+			"pac": 98,
+			"sho": 91,
+			"pas": 82,
+			"dri": 93,
+			"def": 38,
+			"phy": 79,
+			"name": "Mbapp\u00e9",
+			"height": "182cm | 6'0\"",
+			"ppos": "ST",
+			"skills": 5,
+			"wf": 4,
+			"dw": "Low",
+			"aw": "High",
+			"ci": 73,
+			"li": 16,
+			"ni": 18,
+			"playerid": 231747,
+			"resourceid": 84117827,
+			"rat": 92,
+			"rare": 1,
+			"rt": 79,
+			"pricePS": 3626500,
+			"priceMinPS": 0,
+			"priceMaxPS": 0,
+			"pricePC": 3543000,
+			"priceMinPC": 0,
+			"priceMaxPC": 0,
+			"cn": "Paris SG",
+			"ln": "Ligue 1 Uber Eats",
+			"nn": "France",
+			"groups": "",
+			"foot": "Right",
+			"simg": 1,
+			"pimg": "https:\/\/cdn.futbin.com\/content\/fifa24\/img\/players\/p84117827.png?v=23",
+			"pos_all": "ST,CF,LW",
+			"playstyles": "u'Flair', u'Quick Step', u'Trivela'",
+			"playstylesPlus": "u'Rapid'",
+			"stats": {
+				"pace": [
+					{
+						"shortcut": "PAC",
+						"gk_shortcut": "DIV",
+						"chem_change": 1,
+						"id": "pace",
+						"stat_num": "igs1",
+						"name": "Pace",
+						"gk_stat_name": "Diving",
+						"type": "main",
+						"value": 98,
+						"max": true,
+						"sqlCol": "Player_Pace"
+					},
+					{
+						"shortcut": "ACC",
+						"chem_change": 1,
+						"id": "acceleration",
+						"stat_num": "igs2",
+						"name": "Acceleration",
+						"type": "sub",
+						"value": 98,
+						"max": true
+					},
+					{
+						"shortcut": "S\/S",
+						"chem_change": 1,
+						"id": "sprintspeed",
+						"stat_num": "igs3",
+						"name": "Sprint Speed",
+						"type": "sub",
+						"value": 98,
+						"max": true
+					}
+				],
+				"shooting": [
+					{
+						"shortcut": "SHO",
+						"gk_shortcut": "HAN",
+						"chem_change": 1,
+						"id": "shooting",
+						"stat_num": "igs4",
+						"name": "Shooting",
+						"gk_stat_name": "Handling",
+						"type": "main",
+						"value": 91,
+						"sqlCol": "Player_Shooting",
+						"max": true
+					},
+					{
+						"shortcut": "POS",
+						"chem_change": 1,
+						"id": "positioning",
+						"stat_num": "igs5",
+						"name": "Positioning",
+						"type": "sub",
+						"value": 94,
+						"max": true
+					},
+					{
+						"shortcut": "FIN",
+						"chem_change": 1,
+						"id": "finishing",
+						"stat_num": "igs6",
+						"name": "Finishing",
+						"type": "sub",
+						"value": 95,
+						"max": true
+					},
+					{
+						"shortcut": "S\/PW",
+						"chem_change": 1,
+						"id": "shotpower",
+						"stat_num": "igs7",
+						"name": "Shot Power",
+						"type": "sub",
+						"value": 91,
+						"max": true
+					},
+					{
+						"shortcut": "L\/S",
+						"chem_change": 1,
+						"id": "longshotsaccuracy",
+						"stat_num": "igs8",
+						"name": "Long Shots",
+						"type": "sub",
+						"value": 84,
+						"max": true
+					},
+					{
+						"shortcut": "VOL",
+						"chem_change": 1,
+						"id": "volleys",
+						"stat_num": "igs9",
+						"name": "Volleys",
+						"type": "sub",
+						"value": 85,
+						"max": true
+					},
+					{
+						"shortcut": "PEN",
+						"chem_change": 1,
+						"id": "penalties",
+						"stat_num": "igs10",
+						"name": "Penalties",
+						"type": "sub",
+						"value": 85,
+						"max": true
+					}
+				],
+				"passing": [
+					{
+						"shortcut": "PAS",
+						"gk_shortcut": "KIC",
+						"chem_change": 1,
+						"id": "passing",
+						"stat_num": "igs11",
+						"name": "Passing",
+						"gk_stat_name": "Kicking",
+						"type": "main",
+						"value": 82,
+						"sqlCol": "Player_Passing",
+						"max": true
+					},
+					{
+						"shortcut": "VIS",
+						"chem_change": 1,
+						"id": "vision",
+						"stat_num": "igs12",
+						"name": "Vision",
+						"type": "sub",
+						"value": 85,
+						"max": true
+					},
+					{
+						"shortcut": "CRO",
+						"chem_change": 1,
+						"id": "crossing",
+						"stat_num": "igs13",
+						"name": "Crossing",
+						"type": "sub",
+						"value": 80,
+						"max": true
+					},
+					{
+						"shortcut": "F\/K\/A",
+						"chem_change": 1,
+						"id": "freekickaccuracy",
+						"stat_num": "igs14",
+						"name": "FK. Accuracy",
+						"type": "sub",
+						"value": 71,
+						"max": true
+					},
+					{
+						"shortcut": "S\/P",
+						"chem_change": 1,
+						"id": "shortpassing",
+						"stat_num": "igs15",
+						"name": "Short Passing",
+						"type": "sub",
+						"value": 88,
+						"max": true
+					},
+					{
+						"shortcut": "L\/P",
+						"chem_change": 1,
+						"id": "longpassing",
+						"stat_num": "igs16",
+						"name": "Long Passing",
+						"type": "sub",
+						"value": 73,
+						"max": true
+					},
+					{
+						"shortcut": "CUR",
+						"chem_change": 1,
+						"id": "curve",
+						"stat_num": "igs17",
+						"name": "Curve",
+						"type": "sub",
+						"value": 82,
+						"max": true
+					}
+				],
+				"dribbling": [
+					{
+						"shortcut": "DRI",
+						"gk_shortcut": "REF",
+						"chem_change": 1,
+						"id": "dribblingp",
+						"stat_num": "igs18",
+						"name": "Dribbling",
+						"gk_stat_name": "Reflexes",
+						"type": "main",
+						"value": 93,
+						"sqlCol": "Player_Dribbling",
+						"max": true
+					},
+					{
+						"shortcut": "AGI",
+						"chem_change": 1,
+						"id": "agility",
+						"stat_num": "igs19",
+						"name": "Agility",
+						"type": "sub",
+						"value": 94,
+						"max": true
+					},
+					{
+						"shortcut": "BAL",
+						"chem_change": 1,
+						"id": "balance",
+						"stat_num": "igs20",
+						"name": "Balance",
+						"type": "sub",
+						"value": 83,
+						"max": true
+					},
+					{
+						"shortcut": "REA",
+						"chem_change": 1,
+						"id": "reactions",
+						"stat_num": "igs21",
+						"name": "Reactions",
+						"type": "sub",
+						"value": 94,
+						"max": true
+					},
+					{
+						"shortcut": "B\/C",
+						"chem_change": 1,
+						"id": "ballcontrol",
+						"stat_num": "igs22",
+						"name": "Ball Control",
+						"type": "sub",
+						"value": 93,
+						"max": true
+					},
+					{
+						"shortcut": "DRI",
+						"chem_change": 1,
+						"id": "dribbling",
+						"stat_num": "igs23",
+						"name": "Dribbling",
+						"type": "sub",
+						"value": 94,
+						"max": true
+					},
+					{
+						"shortcut": "COM",
+						"chem_change": 0,
+						"id": "composure",
+						"stat_num": "igs35",
+						"name": "Composure",
+						"type": "sub",
+						"value": 89,
+						"max": true
+					}
+				],
+				"defending": [
+					{
+						"shortcut": "DEF",
+						"gk_shortcut": "SPE",
+						"chem_change": 1,
+						"id": "defending",
+						"stat_num": "igs24",
+						"name": "Defending",
+						"gk_stat_name": "Speed",
+						"type": "main",
+						"value": 38,
+						"sqlCol": "Player_Defending",
+						"max": true
+					},
+					{
+						"shortcut": "INT",
+						"chem_change": 1,
+						"id": "interceptions",
+						"stat_num": "igs25",
+						"name": "Interceptions",
+						"type": "sub",
+						"value": 40,
+						"max": true
+					},
+					{
+						"shortcut": "H\/A",
+						"chem_change": 1,
+						"id": "headingaccuracy",
+						"stat_num": "igs26",
+						"name": "Heading Accuracy",
+						"type": "sub",
+						"value": 77,
+						"max": true
+					},
+					{
+						"shortcut": "MAR",
+						"chem_change": 1,
+						"id": "marking",
+						"stat_num": "igs27",
+						"name": "Marking",
+						"type": "sub",
+						"value": 27,
+						"max": true
+					},
+					{
+						"shortcut": "ST\/T",
+						"chem_change": 1,
+						"id": "standingtackle",
+						"stat_num": "igs28",
+						"name": "Standing Tackle",
+						"type": "sub",
+						"value": 36,
+						"max": true
+					},
+					{
+						"shortcut": "SL\/T",
+						"chem_change": 1,
+						"id": "slidingtackle",
+						"stat_num": "igs29",
+						"name": "Sliding Tackle",
+						"type": "sub",
+						"value": 34,
+						"max": true
+					}
+				],
+				"physical": [
+					{
+						"shortcut": "PHY",
+						"gk_shortcut": "POS",
+						"chem_change": 1,
+						"id": "heading",
+						"stat_num": "igs30",
+						"name": "Physicality",
+						"gk_stat_name": "Positioning",
+						"type": "main",
+						"value": 79,
+						"sqlCol": "Player_Heading",
+						"max": true
+					},
+					{
+						"shortcut": "JUMP",
+						"chem_change": 1,
+						"id": "jumping",
+						"stat_num": "igs31",
+						"name": "Jumping",
+						"type": "sub",
+						"value": 89,
+						"max": true
+					},
+					{
+						"shortcut": "STA",
+						"chem_change": 1,
+						"id": "stamina",
+						"stat_num": "igs32",
+						"name": "Stamina",
+						"type": "sub",
+						"value": 89,
+						"max": true
+					},
+					{
+						"shortcut": "STR",
+						"chem_change": 1,
+						"id": "strength",
+						"stat_num": "igs33",
+						"name": "Strength",
+						"type": "sub",
+						"value": 78,
+						"max": true
+					},
+					{
+						"shortcut": "AGR",
+						"chem_change": 1,
+						"id": "aggression",
+						"stat_num": "igs34",
+						"name": "Aggression",
+						"type": "sub",
+						"value": 65,
+						"max": true
+					}
+				]
+			}
+		},
+		{
+			"PID": 35,
+			"bid": 231747,
+			"pac": 97,
+			"sho": 90,
+			"pas": 80,
+			"dri": 92,
+			"def": 36,
+			"phy": 78,
+			"name": "Mbapp\u00e9",
+			"height": "182cm | 6'0\"",
+			"ppos": "ST",
+			"skills": 5,
+			"wf": 4,
+			"dw": "Low",
+			"aw": "High",
+			"ci": 73,
+			"li": 16,
+			"ni": 18,
+			"playerid": 231747,
+			"resourceid": 231747,
+			"rat": 91,
+			"rare": 1,
+			"rt": 1,
+			"pricePS": 1818000,
+			"priceMinPS": 148000,
+			"priceMaxPS": 2800000,
+			"pricePC": 2200000,
+			"priceMinPC": 137000,
+			"priceMaxPC": 2600000,
+			"cn": "Paris SG",
+			"ln": "Ligue 1 Uber Eats",
+			"nn": "France",
+			"groups": "4",
+			"foot": "Right",
+			"simg": 0,
+			"pimg": "https:\/\/cdn.futbin.com\/content\/fifa24\/img\/players\/231747.png?v=23",
+			"pos_all": "ST,CF,LW",
+			"playstyles": "u'Rapid', u'Flair', u'Trivela'",
+			"playstylesPlus": "u'Quick Step'",
+			"stats": {
+				"pace": [
+					{
+						"shortcut": "PAC",
+						"gk_shortcut": "DIV",
+						"chem_change": 1,
+						"id": "pace",
+						"stat_num": "igs1",
+						"name": "Pace",
+						"gk_stat_name": "Diving",
+						"type": "main",
+						"value": 97,
+						"max": true,
+						"sqlCol": "Player_Pace"
+					},
+					{
+						"shortcut": "ACC",
+						"chem_change": 1,
+						"id": "acceleration",
+						"stat_num": "igs2",
+						"name": "Acceleration",
+						"type": "sub",
+						"value": 97,
+						"max": true
+					},
+					{
+						"shortcut": "S\/S",
+						"chem_change": 1,
+						"id": "sprintspeed",
+						"stat_num": "igs3",
+						"name": "Sprint Speed",
+						"type": "sub",
+						"value": 97,
+						"max": true
+					}
+				],
+				"shooting": [
+					{
+						"shortcut": "SHO",
+						"gk_shortcut": "HAN",
+						"chem_change": 1,
+						"id": "shooting",
+						"stat_num": "igs4",
+						"name": "Shooting",
+						"gk_stat_name": "Handling",
+						"type": "main",
+						"value": 90,
+						"sqlCol": "Player_Shooting",
+						"max": true
+					},
+					{
+						"shortcut": "POS",
+						"chem_change": 1,
+						"id": "positioning",
+						"stat_num": "igs5",
+						"name": "Positioning",
+						"type": "sub",
+						"value": 93,
+						"max": true
+					},
+					{
+						"shortcut": "FIN",
+						"chem_change": 1,
+						"id": "finishing",
+						"stat_num": "igs6",
+						"name": "Finishing",
+						"type": "sub",
+						"value": 94,
+						"max": true
+					},
+					{
+						"shortcut": "S\/PW",
+						"chem_change": 1,
+						"id": "shotpower",
+						"stat_num": "igs7",
+						"name": "Shot Power",
+						"type": "sub",
+						"value": 90,
+						"max": true
+					},
+					{
+						"shortcut": "L\/S",
+						"chem_change": 1,
+						"id": "longshotsaccuracy",
+						"stat_num": "igs8",
+						"name": "Long Shots",
+						"type": "sub",
+						"value": 83,
+						"max": true
+					},
+					{
+						"shortcut": "VOL",
+						"chem_change": 1,
+						"id": "volleys",
+						"stat_num": "igs9",
+						"name": "Volleys",
+						"type": "sub",
+						"value": 84,
+						"max": true
+					},
+					{
+						"shortcut": "PEN",
+						"chem_change": 1,
+						"id": "penalties",
+						"stat_num": "igs10",
+						"name": "Penalties",
+						"type": "sub",
+						"value": 84,
+						"max": true
+					}
+				],
+				"passing": [
+					{
+						"shortcut": "PAS",
+						"gk_shortcut": "KIC",
+						"chem_change": 1,
+						"id": "passing",
+						"stat_num": "igs11",
+						"name": "Passing",
+						"gk_stat_name": "Kicking",
+						"type": "main",
+						"value": 80,
+						"sqlCol": "Player_Passing",
+						"max": true
+					},
+					{
+						"shortcut": "VIS",
+						"chem_change": 1,
+						"id": "vision",
+						"stat_num": "igs12",
+						"name": "Vision",
+						"type": "sub",
+						"value": 83,
+						"max": true
+					},
+					{
+						"shortcut": "CRO",
+						"chem_change": 1,
+						"id": "crossing",
+						"stat_num": "igs13",
+						"name": "Crossing",
+						"type": "sub",
+						"value": 78,
+						"max": true
+					},
+					{
+						"shortcut": "F\/K\/A",
+						"chem_change": 1,
+						"id": "freekickaccuracy",
+						"stat_num": "igs14",
+						"name": "FK. Accuracy",
+						"type": "sub",
+						"value": 69,
+						"max": true
+					},
+					{
+						"shortcut": "S\/P",
+						"chem_change": 1,
+						"id": "shortpassing",
+						"stat_num": "igs15",
+						"name": "Short Passing",
+						"type": "sub",
+						"value": 86,
+						"max": true
+					},
+					{
+						"shortcut": "L\/P",
+						"chem_change": 1,
+						"id": "longpassing",
+						"stat_num": "igs16",
+						"name": "Long Passing",
+						"type": "sub",
+						"value": 71,
+						"max": true
+					},
+					{
+						"shortcut": "CUR",
+						"chem_change": 1,
+						"id": "curve",
+						"stat_num": "igs17",
+						"name": "Curve",
+						"type": "sub",
+						"value": 80,
+						"max": true
+					}
+				],
+				"dribbling": [
+					{
+						"shortcut": "DRI",
+						"gk_shortcut": "REF",
+						"chem_change": 1,
+						"id": "dribblingp",
+						"stat_num": "igs18",
+						"name": "Dribbling",
+						"gk_stat_name": "Reflexes",
+						"type": "main",
+						"value": 92,
+						"sqlCol": "Player_Dribbling",
+						"max": true
+					},
+					{
+						"shortcut": "AGI",
+						"chem_change": 1,
+						"id": "agility",
+						"stat_num": "igs19",
+						"name": "Agility",
+						"type": "sub",
+						"value": 93,
+						"max": true
+					},
+					{
+						"shortcut": "BAL",
+						"chem_change": 1,
+						"id": "balance",
+						"stat_num": "igs20",
+						"name": "Balance",
+						"type": "sub",
+						"value": 82,
+						"max": true
+					},
+					{
+						"shortcut": "REA",
+						"chem_change": 1,
+						"id": "reactions",
+						"stat_num": "igs21",
+						"name": "Reactions",
+						"type": "sub",
+						"value": 93,
+						"max": true
+					},
+					{
+						"shortcut": "B\/C",
+						"chem_change": 1,
+						"id": "ballcontrol",
+						"stat_num": "igs22",
+						"name": "Ball Control",
+						"type": "sub",
+						"value": 92,
+						"max": true
+					},
+					{
+						"shortcut": "DRI",
+						"chem_change": 1,
+						"id": "dribbling",
+						"stat_num": "igs23",
+						"name": "Dribbling",
+						"type": "sub",
+						"value": 93,
+						"max": true
+					},
+					{
+						"shortcut": "COM",
+						"chem_change": 0,
+						"id": "composure",
+						"stat_num": "igs35",
+						"name": "Composure",
+						"type": "sub",
+						"value": 88,
+						"max": true
+					}
+				],
+				"defending": [
+					{
+						"shortcut": "DEF",
+						"gk_shortcut": "SPE",
+						"chem_change": 1,
+						"id": "defending",
+						"stat_num": "igs24",
+						"name": "Defending",
+						"gk_stat_name": "Speed",
+						"type": "main",
+						"value": 36,
+						"sqlCol": "Player_Defending",
+						"max": true
+					},
+					{
+						"shortcut": "INT",
+						"chem_change": 1,
+						"id": "interceptions",
+						"stat_num": "igs25",
+						"name": "Interceptions",
+						"type": "sub",
+						"value": 38,
+						"max": true
+					},
+					{
+						"shortcut": "H\/A",
+						"chem_change": 1,
+						"id": "headingaccuracy",
+						"stat_num": "igs26",
+						"name": "Heading Accuracy",
+						"type": "sub",
+						"value": 73,
+						"max": true
+					},
+					{
+						"shortcut": "MAR",
+						"chem_change": 1,
+						"id": "marking",
+						"stat_num": "igs27",
+						"name": "Marking",
+						"type": "sub",
+						"value": 26,
+						"max": true
+					},
+					{
+						"shortcut": "ST\/T",
+						"chem_change": 1,
+						"id": "standingtackle",
+						"stat_num": "igs28",
+						"name": "Standing Tackle",
+						"type": "sub",
+						"value": 34,
+						"max": true
+					},
+					{
+						"shortcut": "SL\/T",
+						"chem_change": 1,
+						"id": "slidingtackle",
+						"stat_num": "igs29",
+						"name": "Sliding Tackle",
+						"type": "sub",
+						"value": 32,
+						"max": true
+					}
+				],
+				"physical": [
+					{
+						"shortcut": "PHY",
+						"gk_shortcut": "POS",
+						"chem_change": 1,
+						"id": "heading",
+						"stat_num": "igs30",
+						"name": "Physicality",
+						"gk_stat_name": "Positioning",
+						"type": "main",
+						"value": 78,
+						"sqlCol": "Player_Heading",
+						"max": true
+					},
+					{
+						"shortcut": "JUMP",
+						"chem_change": 1,
+						"id": "jumping",
+						"stat_num": "igs31",
+						"name": "Jumping",
+						"type": "sub",
+						"value": 88,
+						"max": true
+					},
+					{
+						"shortcut": "STA",
+						"chem_change": 1,
+						"id": "stamina",
+						"stat_num": "igs32",
+						"name": "Stamina",
+						"type": "sub",
+						"value": 88,
+						"max": true
+					},
+					{
+						"shortcut": "STR",
+						"chem_change": 1,
+						"id": "strength",
+						"stat_num": "igs33",
+						"name": "Strength",
+						"type": "sub",
+						"value": 77,
+						"max": true
+					},
+					{
+						"shortcut": "AGR",
+						"chem_change": 1,
+						"id": "aggression",
+						"stat_num": "igs34",
+						"name": "Aggression",
+						"type": "sub",
+						"value": 64,
+						"max": true
+					}
+				]
+			}
+		}
+	],
+	"pages": 2,
+	"msg": "success"
+}
