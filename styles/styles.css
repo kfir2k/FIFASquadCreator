@@ -114,37 +114,97 @@ width: 200px;
 	height: 100vh;
 	display: none;
 	flex-direction: row;
+	padding: 10px;
+	/*background-color: black;*/
+}
+
+#backToListBtn{
+	position: fixed;
 }
 
 
 
 #allChosenCards{
+	gap: 10px;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	/*justify-content:center;*/
 	display: flex;
 	margin: 0 auto;
-	background-color: red;
-	width: 90%;
+	/*background-color: red;*/
+	width: 100%;
 	height:30%;
+	overflow-y: auto;
 }
 
 #allChosenCards *{
 	/*height: 100px;*/
-	background-color: aqua;
-	border: 1px solid black;
-	flex: 1 1 200px;
+	/*background-color: aqua;*/
+	/*border: 1px solid black;*/
+	/*flex: 1 0 20%;*/
+	
 }
 
 
 
 #renderFormation{
-	margin: 0 auto;
-	background-color: #575757;
-	width: 80%;
-	height: 60%;
+	/*margin: 0 auto;*/
+	background-image: url(/Images/stadium.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	/*background-size: 80%;*/
+
+	width: 100%;
+	height: 69%;
+}
+
+.choesen-player-card{
+	position: relative;
+	/*height: 300px;*/
+	margin-top: 20px;
+	padding: 10px;
+	/*background-color: rgb(19, 19, 19);*/
+	border-radius: 10px;
+	color: rgb(0, 0, 0);
+	font-size: 15px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 
+.choesen-player-card img{
+	position: relative;
+	
+	width: 100px;
+}
+.choesen-player-card{
+	text-align: center;
+}
+
+.xSymbolForDeleteCard{
+/*background-color: #f44336;*/
+
+	/*padding-left: 70px;*/
+
+	/*position: absolute;*/
+	z-index: 999;
+	fill: rgb(0, 0, 0);
+
+}
+
+
+
+
+#renderFormation #target{
+	opacity: 70%;
+	transform: translate(-50%, -50%);
+	position: relative;
+	top: 80%;
+	left: 50%;
+	text-align: center;
+	background-color: rgb(175, 175, 175);
+	width: 100px;
+	height: 150px;
+}
 
 
 
