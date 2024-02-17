@@ -16,6 +16,7 @@ const builderPageBtn = document.querySelector("#builderPageBtn");
 const backToListBtn = document.querySelector("#backToListBtn");
 const formation = document.querySelector("#formation");
 const selectedPlayersArray = [];
+let selectedCard;
 const dropZone = document.getElementById("target");
 dropZone === null || dropZone === void 0 ? void 0 : dropZone.addEventListener("dragstart", (evant) => {
     console.log(evant);
@@ -24,7 +25,7 @@ dropZone === null || dropZone === void 0 ? void 0 : dropZone.addEventListener("d
     evant.preventDefault();
 });
 dropZone === null || dropZone === void 0 ? void 0 : dropZone.addEventListener("drop", (evant) => {
-    dropZone.prepend(evant);
+    dropZone.prepend(selectedCard);
 });
 builderPageBtn === null || builderPageBtn === void 0 ? void 0 : builderPageBtn.addEventListener("click", () => {
     const mainElement = document.querySelector("main");
@@ -89,7 +90,8 @@ function createSelectedPlayerCard(playerCard) {
     card.setAttribute("draggable", "true");
     card.addEventListener("dragstart", (ev) => {
         console.log(ev);
-        ev.dataTransfer.setData("text", ev.target.id);
+        selectedCard = card;
+        //ev.dataTransfer!.setData("text", ev.target!.id);
     });
     card.appendChild(deleteBtn);
     card.appendChild(cardImage);

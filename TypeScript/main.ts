@@ -7,6 +7,7 @@ const builderPageBtn = document.querySelector("#builderPageBtn") as HTMLElement
 const backToListBtn = document.querySelector("#backToListBtn") as HTMLElement
 const formation = document.querySelector("#formation") as HTMLElement
 const selectedPlayersArray: Array<chosenCard> = []
+let selectedCard:HTMLElement
 
 
 const dropZone = document.getElementById("target");
@@ -20,7 +21,7 @@ dropZone?.addEventListener("dragover", (evant) => {
 })
 
 dropZone?.addEventListener("drop", (evant) => {
-	dropZone.prepend(evant)
+	dropZone.prepend(selectedCard)
 })
 
 
@@ -152,7 +153,8 @@ function createSelectedPlayerCard(playerCard: chosenCard):HTMLDivElement {
 	card.addEventListener("dragstart", (ev) => {
 		console.log(ev);
 		
-		ev.dataTransfer!.setData("text", ev.target!.id);
+		selectedCard = card
+		//ev.dataTransfer!.setData("text", ev.target!.id);
 	})
 
 	card.appendChild(deleteBtn)

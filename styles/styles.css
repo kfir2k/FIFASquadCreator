@@ -195,15 +195,16 @@ width: 200px;
 
 
 #renderFormation #target{
-	opacity: 70%;
+
 	transform: translate(-50%, -50%);
 	position: relative;
 	top: 80%;
 	left: 50%;
 	text-align: center;
 	background-color: rgb(175, 175, 175);
-	width: 100px;
-	height: 150px;
+	width: 150px;
+	height: 200px;
+	
 }
 
 
