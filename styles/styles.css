@@ -15,6 +15,10 @@
 body {
 	font-family: Arial, sans-serif;
 	background-color: #f5f5f5;
+
+}
+
+main{
 	padding: 20px;
 }
 
@@ -78,7 +82,7 @@ input:focus-visible {
 }
 
 
-button {
+main button {
 	width: 30px;
 	height: 37px;
 }
@@ -98,8 +102,58 @@ button {
 
 
 #builderPageBtn{
-width: 150px;
+width: 200px;
+
 }
+
+
+
+
+
+#formation{
+	height: 100vh;
+	display: none;
+	flex-direction: row;
+}
+
+
+
+#allChosenCards{
+	flex-wrap: wrap;
+	justify-content: space-around;
+	display: flex;
+	margin: 0 auto;
+	background-color: red;
+	width: 90%;
+	height:30%;
+}
+
+#allChosenCards *{
+	/*height: 100px;*/
+	background-color: aqua;
+	border: 1px solid black;
+	flex: 1 1 200px;
+}
+
+
+
+#renderFormation{
+	margin: 0 auto;
+	background-color: #575757;
+	width: 80%;
+	height: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

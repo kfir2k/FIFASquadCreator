@@ -3,25 +3,67 @@ console.log("test");
 const headerSearchForm = document.querySelector("form")
 const userSearch = document.querySelector("input") as HTMLInputElement
 const renderData = document.querySelector("#renderData")
+const builderPageBtn = document.querySelector("#builderPageBtn") as HTMLElement
+const backToListBtn = document.querySelector("#backToListBtn") as HTMLElement
+const formation = document.querySelector("#formation") as HTMLElement
+const selectedPlayersArray:Array<chosenCard> = []
+
+
+
+console.log(backToListBtn);
+
+
+builderPageBtn?.addEventListener("click", () => {
+	const mainElement = document.querySelector("main");
+	if (mainElement !== null && mainElement !== undefined) {
+		mainElement.style.display = "none";
+	}
+	if (formation !== null && formation !== undefined) {
+		formation.style.display = "block";
+	}
+})
+
+
+backToListBtn?.addEventListener("click", () => {
+	const mainElement = document.querySelector("main");
+	if (mainElement !== null && mainElement !== undefined) {
+		mainElement.style.display = "block";
+	}
+
+	if (formation !== null && formation !== undefined) {
+		formation.style.display = "none";
+	}
+
+})
+
+
+
 
 
 headerSearchForm?.addEventListener("submit",(ev) => {
 	ev.preventDefault()
 	initRender()
 	const nameOfPlayer = userSearch.value
-
+	
 	userSearch.value = ""
 	controller(nameOfPlayer)
 	return
 
 })
 
-//const apiKey: string = "1dfa96a8-50b2-40c6-b355-ed01cc5aed96";
-//const headers: object = {
-//	headers: {
-//		'X-AUTH-TOKEN': apiKey
-//	}
-//}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -60,6 +102,28 @@ interface playerProperties {
 	rarityName?: string;
 
 	// Define other properties you expect here
+}
+
+
+interface chosenCard{
+	fullName?: string;
+	cardImageUrl?: string;
+
+}
+
+
+function createSelectedPlayerCard(playerCard:chosenCard) {
+
+	const card = document.createElement("div")
+	card.classList.add("choesen-player-card")	
+	const playerName = document.createElement("p")
+	playerName.innerText = playerCard.fullName
+	const cardImage = document.createElement("img")
+
+
+	
+	card.appendChild(cardImage)
+	card.appendChild(playerName)
 }
 
 
@@ -112,7 +176,17 @@ function renderTableOfArray(playersArray: Array<playerProperties>) {
 		
 
 		tableRow.addEventListener("click", () => {
-			console.log(i);
+			
+			const chosenPlayer:chosenCard = {
+				fullName: `${i.firstName} ${i.lastName}`,
+				cardImageUrl: i.cardImageUrl
+
+			}
+			console.log(chosenPlayer);
+			selectedPlayersArray.push(chosenPlayer)
+			console.log(selectedPlayersArray);
+			
+			
 		})
 
 

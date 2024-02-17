@@ -12,6 +12,29 @@ console.log("test");
 const headerSearchForm = document.querySelector("form");
 const userSearch = document.querySelector("input");
 const renderData = document.querySelector("#renderData");
+const builderPageBtn = document.querySelector("#builderPageBtn");
+const backToListBtn = document.querySelector("#backToListBtn");
+const formation = document.querySelector("#formation");
+const selectedPlayersArray = [];
+console.log(backToListBtn);
+builderPageBtn === null || builderPageBtn === void 0 ? void 0 : builderPageBtn.addEventListener("click", () => {
+    const mainElement = document.querySelector("main");
+    if (mainElement !== null && mainElement !== undefined) {
+        mainElement.style.display = "none";
+    }
+    if (formation !== null && formation !== undefined) {
+        formation.style.display = "block";
+    }
+});
+backToListBtn === null || backToListBtn === void 0 ? void 0 : backToListBtn.addEventListener("click", () => {
+    const mainElement = document.querySelector("main");
+    if (mainElement !== null && mainElement !== undefined) {
+        mainElement.style.display = "block";
+    }
+    if (formation !== null && formation !== undefined) {
+        formation.style.display = "none";
+    }
+});
 headerSearchForm === null || headerSearchForm === void 0 ? void 0 : headerSearchForm.addEventListener("submit", (ev) => {
     ev.preventDefault();
     initRender();
@@ -20,12 +43,6 @@ headerSearchForm === null || headerSearchForm === void 0 ? void 0 : headerSearch
     controller(nameOfPlayer);
     return;
 });
-//const apiKey: string = "1dfa96a8-50b2-40c6-b355-ed01cc5aed96";
-//const headers: object = {
-//	headers: {
-//		'X-AUTH-TOKEN': apiKey
-//	}
-//}
 function getPlayerByName(name) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
@@ -42,6 +59,15 @@ function getPlayerByName(name) {
             console.error('There was a problem with your fetch operation:', error);
         }
     });
+}
+function createSelectedPlayerCard(playerCard) {
+    const card = document.createElement("div");
+    card.classList.add("choesen-player-card");
+    const playerName = document.createElement("p");
+    playerName.innerText = playerCard.fullName;
+    const cardImage = document.createElement("img");
+    card.appendChild(cardImage);
+    card.appendChild(playerName);
 }
 function tableDataCreator(string, rowName) {
     const td = document.createElement("td");
@@ -71,7 +97,13 @@ function renderTableOfArray(playersArray) {
         tdForImage.appendChild(playerCard);
         tableRow.appendChild(tdForImage);
         tableRow.addEventListener("click", () => {
-            console.log(i);
+            const chosenPlayer = {
+                fullName: `${i.firstName} ${i.lastName}`,
+                cardImageUrl: i.cardImageUrl
+            };
+            console.log(chosenPlayer);
+            selectedPlayersArray.push(chosenPlayer);
+            console.log(selectedPlayersArray);
         });
         renderData === null || renderData === void 0 ? void 0 : renderData.appendChild(tableRow);
     }
