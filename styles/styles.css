@@ -119,6 +119,7 @@ width: 200px;
 }
 
 #backToListBtn{
+	z-index: 999;
 	position: fixed;
 }
 
@@ -151,16 +152,19 @@ width: 200px;
 	background-image: url(/Images/stadium.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	/*background-size: 80%;*/
-
+	background-size: fill;
+	
+	/*position: absolute;*/
 	width: 100%;
+	margin: 5px;
 	height: 69%;
+	background-color: red;
 }
 
 .choesen-player-card{
 	position: relative;
 	/*height: 300px;*/
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 	padding: 10px;
 	/*background-color: rgb(19, 19, 19);*/
 	border-radius: 10px;
@@ -194,18 +198,72 @@ width: 200px;
 
 
 
-#renderFormation #target{
+#renderFormation .positions:nth-child(1){
 
 	transform: translate(-50%, -50%);
-	position: relative;
-	top: 80%;
-	left: 50%;
+	position: absolute;
+top: 10%;
+left: 50%;
 	text-align: center;
 	background-color: rgb(175, 175, 175);
-	width: 150px;
-	height: 200px;
+	width: 75px;
+	height: 100px;
 	
 }
+
+
+
+#renderFormation .positions:nth-child(2) {
+
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 20%;
+	right: 20%;
+	text-align: center;
+	background-color: rgb(175, 175, 175);
+	width: 75px;
+	height: 100px;
+
+}
+
+#renderFormation .positions:nth-child(3) {
+
+	transform: translate(-50%, -50%);
+	position: absolute;
+
+	text-align: center;
+	background-color: rgb(175, 175, 175);
+	width: 75px;
+	height: 100px;
+
+}
+#renderFormation .positions:nth-child(4) {
+
+	transform: translate(-50%, -50%);
+	position: absolute;
+
+	text-align: center;
+	background-color: rgb(0, 204, 255);
+	width: 75px;
+	height: 100px;
+
+}
+
+#renderFormation .positions:nth-child(5) {
+
+	transform: translate(-50%, -50%);
+	position: absolute;
+
+	text-align: center;
+	background-color: rgb(0, 204, 255);
+	width: 75px;
+	height: 100px;
+
+}
+
+
+
+
 
 
 

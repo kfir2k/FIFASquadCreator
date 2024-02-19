@@ -16,15 +16,38 @@ const builderPageBtn = document.querySelector("#builderPageBtn");
 const backToListBtn = document.querySelector("#backToListBtn");
 const formation = document.querySelector("#formation");
 const selectedPlayersArray = [];
+const drawarOfPlayer = document.getElementById("allChosenCards");
 let selectedCard;
+let isInFormation = false;
+//const F433: Array<HTMLDivElement> = [GK, RB, CB, CB, LB, CM, CM, CM, LW, ST, RW]
 const dropZone = document.getElementById("target");
+const dragStart = (evant) => {
+    console.log("dragstart----", evant);
+};
+const dragover = (evant) => {
+    console.log("dragover----", evant);
+    evant.preventDefault();
+};
+const drop = (evant) => {
+    console.log("drop----", evant);
+    if (evant.toElement === )
+        evant.toElement.prepend(selectedCard);
+};
+const positions = document.querySelectorAll(".positions");
+positions.forEach((element) => {
+    element.addEventListener("dragstart", dragStart);
+    element.addEventListener("dragover", dragover);
+    element.addEventListener("drop", drop);
+});
 dropZone === null || dropZone === void 0 ? void 0 : dropZone.addEventListener("dragstart", (evant) => {
-    console.log(evant);
+    console.log("dragstart----", evant);
 });
 dropZone === null || dropZone === void 0 ? void 0 : dropZone.addEventListener("dragover", (evant) => {
+    console.log("dragover----");
     evant.preventDefault();
 });
 dropZone === null || dropZone === void 0 ? void 0 : dropZone.addEventListener("drop", (evant) => {
+    console.log("drop----", evant);
     dropZone.prepend(selectedCard);
 });
 builderPageBtn === null || builderPageBtn === void 0 ? void 0 : builderPageBtn.addEventListener("click", () => {
@@ -89,7 +112,7 @@ function createSelectedPlayerCard(playerCard) {
     });
     card.setAttribute("draggable", "true");
     card.addEventListener("dragstart", (ev) => {
-        console.log(ev);
+        console.log("dragstart from craetion", ev);
         selectedCard = card;
         //ev.dataTransfer!.setData("text", ev.target!.id);
     });
