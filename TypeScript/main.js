@@ -8,7 +8,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-console.log("test");
 const headerSearchForm = document.querySelector("form");
 const userSearch = document.querySelector("input");
 const renderData = document.querySelector("#renderData");
@@ -17,39 +16,39 @@ const backToListBtn = document.querySelector("#backToListBtn");
 const formation = document.querySelector("#formation");
 const selectedPlayersArray = [];
 const drawarOfPlayer = document.getElementById("allChosenCards");
+const PlayerSelectedCounter = document.getElementById("PlayerSelectedCounter");
 let selectedCard;
-let isInFormation = false;
 //const F433: Array<HTMLDivElement> = [GK, RB, CB, CB, LB, CM, CM, CM, LW, ST, RW]
-const dropZone = document.getElementById("target");
-const dragStart = (evant) => {
-    console.log("dragstart----", evant);
+const dragStart = (e) => {
 };
-const dragover = (evant) => {
-    console.log("dragover----", evant);
-    evant.preventDefault();
+const dragover = (e) => {
+    e.preventDefault();
 };
-const drop = (evant) => {
-    console.log("drop----", evant);
-    if (evant.toElement === )
-        evant.toElement.prepend(selectedCard);
+const drop = (e) => {
+    if (e.target.classList.contains('positions')) {
+        selectedCard.classList.remove("choesen-player-card");
+        selectedCard.classList.add("miniPlayerForBuilder");
+        e.target.prepend(selectedCard);
+    }
+    else {
+        selectedCard.classList.remove("miniPlayerForBuilder");
+        selectedCard.classList.add("choesen-player-card");
+        drawarOfPlayer === null || drawarOfPlayer === void 0 ? void 0 : drawarOfPlayer.appendChild(selectedCard);
+    }
 };
 const positions = document.querySelectorAll(".positions");
+positions.forEach((element) => {
+    element.style.width = "150px";
+    element.style.height = "150px";
+});
 positions.forEach((element) => {
     element.addEventListener("dragstart", dragStart);
     element.addEventListener("dragover", dragover);
     element.addEventListener("drop", drop);
 });
-dropZone === null || dropZone === void 0 ? void 0 : dropZone.addEventListener("dragstart", (evant) => {
-    console.log("dragstart----", evant);
-});
-dropZone === null || dropZone === void 0 ? void 0 : dropZone.addEventListener("dragover", (evant) => {
-    console.log("dragover----");
-    evant.preventDefault();
-});
-dropZone === null || dropZone === void 0 ? void 0 : dropZone.addEventListener("drop", (evant) => {
-    console.log("drop----", evant);
-    dropZone.prepend(selectedCard);
-});
+drawarOfPlayer === null || drawarOfPlayer === void 0 ? void 0 : drawarOfPlayer.addEventListener("dragstart", dragStart);
+drawarOfPlayer === null || drawarOfPlayer === void 0 ? void 0 : drawarOfPlayer.addEventListener("dragover", dragover);
+drawarOfPlayer === null || drawarOfPlayer === void 0 ? void 0 : drawarOfPlayer.addEventListener("drop", drop);
 builderPageBtn === null || builderPageBtn === void 0 ? void 0 : builderPageBtn.addEventListener("click", () => {
     const mainElement = document.querySelector("main");
     if (mainElement !== null && mainElement !== undefined) {
@@ -60,6 +59,7 @@ builderPageBtn === null || builderPageBtn === void 0 ? void 0 : builderPageBtn.a
     }
 });
 backToListBtn === null || backToListBtn === void 0 ? void 0 : backToListBtn.addEventListener("click", () => {
+    PlayerSelectedCounter.innerText = (`${selectedPlayersArray.length}`);
     const mainElement = document.querySelector("main");
     if (mainElement !== null && mainElement !== undefined) {
         mainElement.style.display = "block";
@@ -85,7 +85,6 @@ function getPlayerByName(name) {
                 throw new Error('Network response was not ok');
             }
             const data = yield response.json();
-            console.log(data); // Process the JSON data here
             return data;
         }
         catch (error) {
@@ -104,17 +103,13 @@ function createSelectedPlayerCard(playerCard) {
     deleteBtn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>';
     deleteBtn.classList.add("xSymbolForDeleteCard");
     deleteBtn.addEventListener("click", () => {
-        console.log("playerCard", playerCard);
         const indexToDelete = selectedPlayersArray.findIndex((player) => player === playerCard);
         selectedPlayersArray.splice(indexToDelete, 1);
-        console.log(selectedPlayersArray);
         card.remove();
     });
     card.setAttribute("draggable", "true");
     card.addEventListener("dragstart", (ev) => {
-        console.log("dragstart from craetion", ev);
         selectedCard = card;
-        //ev.dataTransfer!.setData("text", ev.target!.id);
     });
     card.appendChild(deleteBtn);
     card.appendChild(cardImage);
@@ -154,10 +149,13 @@ function renderTableOfArray(playersArray) {
                 fullName: `${i.firstName} ${i.lastName}`,
                 cardImageUrl: i.cardImageUrl
             };
-            console.log(chosenPlayer);
+            if (selectedPlayersArray.find((player) => player.fullName === chosenPlayer.fullName && player.cardImageUrl === chosenPlayer.cardImageUrl)) {
+                alert("Already Chosen Same Rarity Of This Player");
+                return;
+            }
             selectedPlayersArray.push(chosenPlayer);
+            PlayerSelectedCounter.innerText = (`${selectedPlayersArray.length}`);
             (_a = document.getElementById("allChosenCards")) === null || _a === void 0 ? void 0 : _a.appendChild(createSelectedPlayerCard(chosenPlayer));
-            console.log(selectedPlayersArray);
         });
         renderData === null || renderData === void 0 ? void 0 : renderData.appendChild(tableRow);
     }
@@ -171,7 +169,6 @@ function controller(nameOfPlayer) {
     return __awaiter(this, void 0, void 0, function* () {
         let playersArray = yield getPlayerByName(nameOfPlayer);
         if (playersArray === undefined) {
-            console.log("Issue");
             return;
         }
         renderTableOfArray(playersArray.data);

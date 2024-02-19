@@ -1,4 +1,4 @@
-console.log("test");
+
 
 const headerSearchForm = document.querySelector("form")
 const userSearch = document.querySelector("input") as HTMLInputElement
@@ -8,8 +8,9 @@ const backToListBtn = document.querySelector("#backToListBtn") as HTMLElement
 const formation = document.querySelector("#formation") as HTMLElement
 const selectedPlayersArray: Array<chosenCard> = []
 const drawarOfPlayer = document.getElementById("allChosenCards")
+const PlayerSelectedCounter = document.getElementById("PlayerSelectedCounter")
 let selectedCard: HTMLElement
-let isInFormation = false;
+
 
 
 
@@ -18,32 +19,37 @@ let isInFormation = false;
 
 
 
+const dragStart = (e:any) => {
 
-
-
-
-const dropZone = document.getElementById("target");
-
-
-const dragStart = (evant:any) => {
-	console.log("dragstart----", evant);
 }
-const dragover = (evant:any) => {
-	console.log("dragover----",evant);
-
-	evant.preventDefault()
+const dragover = (e:any) => {
+		e.preventDefault();
 }
 
-const drop = (evant:any) => {
-	console.log("drop----", evant);
-	if (evant.toElement === )
+const drop = (e:any) => {
+
+
+	if (e.target.classList.contains('positions')) {
+		selectedCard.classList.remove("choesen-player-card")
+		selectedCard.classList.add("miniPlayerForBuilder")
+		e.target.prepend(selectedCard)
+	} else {
+		selectedCard.classList.remove("miniPlayerForBuilder")
+		selectedCard.classList.add("choesen-player-card")
+		drawarOfPlayer?.appendChild(selectedCard)
+	}
 	
-	evant.toElement.prepend(selectedCard)
 }
 
 
 
-const positions: NodeList = document.querySelectorAll(".positions")
+const positions: NodeList = document.querySelectorAll(".positions");
+positions.forEach((element) => {
+	(element as HTMLElement).style.width = "150px";
+	(element as HTMLElement).style.height = "150px";
+});
+
+
 positions.forEach((element) => {
 	element.addEventListener("dragstart", dragStart)
 	element.addEventListener("dragover", dragover)
@@ -51,28 +57,9 @@ positions.forEach((element) => {
 })
 
 
-
-
-
-
-
-
-dropZone?.addEventListener("dragstart", (evant) => {
-	console.log("dragstart----",evant);
-	
-})
-
-dropZone?.addEventListener("dragover", (evant) => {
-	console.log("dragover----");
-	
-	evant.preventDefault()
-})
-
-dropZone?.addEventListener("drop", (evant) => {
-	console.log("drop----", evant);
-	
-	dropZone.prepend(selectedCard)
-})
+drawarOfPlayer?.addEventListener("dragstart", dragStart)
+drawarOfPlayer?.addEventListener("dragover", dragover)
+drawarOfPlayer?.addEventListener("drop", drop)
 
 
 
@@ -91,8 +78,10 @@ builderPageBtn?.addEventListener("click", () => {
 
 
 backToListBtn?.addEventListener("click", () => {
+	PlayerSelectedCounter!.innerText = (`${selectedPlayersArray.length}`) as string
 	const mainElement = document.querySelector("main");
 	if (mainElement !== null && mainElement !== undefined) {
+		
 		mainElement.style.display = "block";
 	}
 
@@ -143,7 +132,6 @@ async function getPlayerByName(name: string) {
 		}
 
 		const data = await response.json();
-		console.log(data); // Process the JSON data here
 
 		return data
 
@@ -159,15 +147,12 @@ async function getPlayerByName(name: string) {
 
 
 interface playerProperties {
-	
 	firstName?: string;
 	lastName?: string;
 	overall?: number;
 	cardImageUrl?: string;
 	rarityImageUrl?: string;
 	rarityName?: string;
-
-	// Define other properties you expect here
 }
 
 
@@ -190,10 +175,8 @@ function createSelectedPlayerCard(playerCard: chosenCard):HTMLDivElement {
 	deleteBtn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>'
 	deleteBtn.classList.add("xSymbolForDeleteCard")
 	deleteBtn.addEventListener("click", () => {
-		console.log("playerCard", playerCard);
 		const indexToDelete:number = selectedPlayersArray.findIndex((player) =>player === playerCard)
 		selectedPlayersArray.splice(indexToDelete, 1)
-		console.log(selectedPlayersArray);
 		card.remove()
 		
 		
@@ -201,10 +184,9 @@ function createSelectedPlayerCard(playerCard: chosenCard):HTMLDivElement {
 
 	card.setAttribute("draggable","true")
 	card.addEventListener("dragstart", (ev) => {
-		console.log("dragstart from craetion",ev);
+
 		
 		selectedCard = card
-		//ev.dataTransfer!.setData("text", ev.target!.id);
 	})
 
 	card.appendChild(deleteBtn)
@@ -271,10 +253,20 @@ function renderTableOfArray(playersArray: Array<playerProperties>) {
 				cardImageUrl: i.cardImageUrl
 
 			}
-			console.log(chosenPlayer);
+		
+
+			if(selectedPlayersArray.find((player: chosenCard) =>
+				player.fullName === chosenPlayer.fullName && player.cardImageUrl === chosenPlayer.cardImageUrl)) {
+				
+				alert("Already Chosen Same Rarity Of This Player")
+				return
+				
+				}
+			
+			
 			selectedPlayersArray.push(chosenPlayer)
+			PlayerSelectedCounter!.innerText = (`${selectedPlayersArray.length}`) as string
 			document.getElementById("allChosenCards")?.appendChild(createSelectedPlayerCard(chosenPlayer))
-			console.log(selectedPlayersArray);
 			
 			
 		})
@@ -309,7 +301,6 @@ async function controller(nameOfPlayer: string) {
 
 	let playersArray = await getPlayerByName(nameOfPlayer)
 	if (playersArray === undefined) {
-		console.log("Issue");
 		return
 	}
 

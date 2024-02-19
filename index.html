@@ -13,8 +13,14 @@
 <body>
 	<main>
 		<header>
-			<h1>Fifa 24 Squad Builder</h1>
+			<div>
+			<h1>FIFA 24 Squad Builder</h1>
+			<p>Click On Row for Selecting Cards</p>
+			</div>
 			<button id="builderPageBtn">Go to Builder</button>
+
+			<h4>Players Chosen: <span id="PlayerSelectedCounter">0</span> </h4>
+
 			<form>
 				<input type="text" placeholder="Search Player">
 				<button type="submit"><i class="fa fa-search"></i></button>
@@ -36,8 +42,14 @@
 	<section id="formation">
 
 			<button id="backToListBtn">Back</button>
+			<div class="titleOfBuilderPage">
+			<h2>Scroll down for managing the postions of players cards</h2>
+			<p>Just Drag and drop the players in your correct position</p>
+			</div>
 			<div id="renderFormation">
+				
 
+			<div class="positions"></div>
 			<div class="positions"></div>
 			<div class="positions"></div>
 			<div class="positions"></div>
