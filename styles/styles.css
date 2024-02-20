@@ -2,9 +2,9 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	-webkit-user-select: none;
+	/*-webkit-user-select: none;
 	-ms-user-select: none;
-	user-select: none;
+	user-select: none;*/
 
 }
 
@@ -145,13 +145,11 @@ width: 200px;
 	
 }
 
-#allChosenCards *{
-	/*height: 100px;*/
-	/*background-color: aqua;*/
-	/*border: 1px solid black;*/
-	/*flex: 1 0 20%;*/
-	
+#allChosenCards * {
+	flex: 0 0 1;
 }
+
+
 
 .titleOfBuilderPage{
 	text-align: center;
@@ -406,7 +404,7 @@ width: 200px;
 
 
 
-s
+
 
 
 

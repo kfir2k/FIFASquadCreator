@@ -18,11 +18,11 @@ const selectedPlayersArray = [];
 const drawarOfPlayer = document.getElementById("allChosenCards");
 const PlayerSelectedCounter = document.getElementById("PlayerSelectedCounter");
 let selectedCard;
-//const F433: Array<HTMLDivElement> = [GK, RB, CB, CB, LB, CM, CM, CM, LW, ST, RW]
 const dragStart = (e) => {
 };
 const dragover = (e) => {
     e.preventDefault();
+    //e.stopPropagation()
 };
 const drop = (e) => {
     if (e.target.classList.contains('positions')) {
@@ -109,6 +109,7 @@ function createSelectedPlayerCard(playerCard) {
     });
     card.setAttribute("draggable", "true");
     card.addEventListener("dragstart", (ev) => {
+        //ev.stopPropagation();
         selectedCard = card;
     });
     card.appendChild(deleteBtn);

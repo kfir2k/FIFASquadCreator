@@ -14,7 +14,13 @@ let selectedCard: HTMLElement
 
 
 
-//const F433: Array<HTMLDivElement> = [GK, RB, CB, CB, LB, CM, CM, CM, LW, ST, RW]
+
+
+
+
+
+
+
 
 
 
@@ -22,8 +28,11 @@ let selectedCard: HTMLElement
 const dragStart = (e:any) => {
 
 }
-const dragover = (e:any) => {
-		e.preventDefault();
+const dragover = (e: any) => {
+
+	
+	e.preventDefault();
+	//e.stopPropagation()
 }
 
 const drop = (e:any) => {
@@ -186,8 +195,11 @@ function createSelectedPlayerCard(playerCard: chosenCard):HTMLDivElement {
 	card.addEventListener("dragstart", (ev) => {
 
 		
+		//ev.stopPropagation();
 		selectedCard = card
 	})
+
+	
 
 	card.appendChild(deleteBtn)
 	card.appendChild(cardImage)
