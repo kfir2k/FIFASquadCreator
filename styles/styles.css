@@ -160,7 +160,7 @@ width: 200px;
 
 #renderFormation{
 	/*margin: 0 auto;*/
-	background-image: url(/Images/stadium.jpg);
+	background-image: url(./Images/stadium.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size:cover;
